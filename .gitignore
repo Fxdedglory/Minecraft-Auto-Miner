@@ -18,3 +18,4 @@ Thumbs.db
 # Runtime artifacts
 data/dashboard_*.json
 data/runtime_*.log
+tree/
