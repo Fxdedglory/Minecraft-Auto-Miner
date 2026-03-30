@@ -1,0 +1,704 @@
+﻿{
+    "project":  "Minecraft_auto_miner",
+    "root":  "E:\\Minecraft_auto_miner",
+    "generatedAt":  {
+                        "value":  "\/Date(1774888481310)\/",
+                        "DisplayHint":  2,
+                        "DateTime":  "Monday, March 30, 2026 12:34:41 PM"
+                    },
+    "scriptVersion":  "tree_snapshot.ps1 v0.4.1 - 2026-02-09",
+    "snapshotId":  "20260330_123441",
+    "tree":  {
+                 "name":  "Minecraft_auto_miner",
+                 "type":  "dir",
+                 "fullPath":  "E:\\Minecraft_auto_miner",
+                 "lastWriteTime":  "\/Date(1774888418636)\/",
+                 "children":  [
+                                  {
+                                      "name":  "archive",
+                                      "type":  "dir",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\archive",
+                                      "lastWriteTime":  "\/Date(1774888418560)\/",
+                                      "children":  [
+                                                       {
+                                                           "name":  "telemetry_legacy",
+                                                           "type":  "dir",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\telemetry_legacy",
+                                                           "lastWriteTime":  "\/Date(1774888418561)\/",
+                                                           "children":  [
+                                                                            {
+                                                                                "name":  "schema_telemetry.sql",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\archive\\telemetry_legacy\\schema_telemetry.sql",
+                                                                                "lastWriteTime":  "\/Date(1774888418560)\/",
+                                                                                "length":  2250
+                                                                            },
+                                                                            {
+                                                                                "name":  "telemetry_inspect.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\archive\\telemetry_legacy\\telemetry_inspect.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418561)\/",
+                                                                                "length":  8724
+                                                                            },
+                                                                            {
+                                                                                "name":  "telemetry_state_action_design_v0.2.md",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\archive\\telemetry_legacy\\telemetry_state_action_design_v0.2.md",
+                                                                                "lastWriteTime":  "\/Date(1774888418561)\/",
+                                                                                "length":  13224
+                                                                            }
+                                                                        ]
+                                                       },
+                                                       {
+                                                           "name":  "control_tuning.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\control_tuning.py",
+                                                           "lastWriteTime":  "\/Date(1774888418556)\/",
+                                                           "length":  14109
+                                                       },
+                                                       {
+                                                           "name":  "lane_controller.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\lane_controller.py",
+                                                           "lastWriteTime":  "\/Date(1774888418556)\/",
+                                                           "length":  12030
+                                                       },
+                                                       {
+                                                           "name":  "lane_planner.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\lane_planner.py",
+                                                           "lastWriteTime":  "\/Date(1774888418557)\/",
+                                                           "length":  3887
+                                                       },
+                                                       {
+                                                           "name":  "mining_profiles.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\mining_profiles.py",
+                                                           "lastWriteTime":  "\/Date(1774888418558)\/",
+                                                           "length":  3035
+                                                       },
+                                                       {
+                                                           "name":  "movement_primitives.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\movement_primitives.py",
+                                                           "lastWriteTime":  "\/Date(1774888418558)\/",
+                                                           "length":  7892
+                                                       },
+                                                       {
+                                                           "name":  "policy_bootstrap.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\policy_bootstrap.py",
+                                                           "lastWriteTime":  "\/Date(1774888418559)\/",
+                                                           "length":  8041
+                                                       },
+                                                       {
+                                                           "name":  "state_machine.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\state_machine.py",
+                                                           "lastWriteTime":  "\/Date(1774888418560)\/",
+                                                           "length":  7035
+                                                       },
+                                                       {
+                                                           "name":  "strategies.py",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\archive\\strategies.py",
+                                                           "lastWriteTime":  "\/Date(1774888418560)\/",
+                                                           "length":  12248
+                                                       }
+                                                   ]
+                                  },
+                                  {
+                                      "name":  "config",
+                                      "type":  "dir",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\config",
+                                      "lastWriteTime":  "\/Date(1774888418562)\/",
+                                      "children":  [
+                                                       {
+                                                           "name":  "config.yaml",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\config\\config.yaml",
+                                                           "lastWriteTime":  "\/Date(1774888418562)\/",
+                                                           "length":  4922
+                                                       }
+                                                   ]
+                                  },
+                                  {
+                                      "name":  "data",
+                                      "type":  "dir",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\data",
+                                      "lastWriteTime":  "\/Date(1774888418615)\/",
+                                      "children":  [
+                                                       {
+                                                           "name":  "control_calibration",
+                                                           "type":  "dir",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration",
+                                                           "lastWriteTime":  "\/Date(1774888418588)\/",
+                                                           "children":  [
+                                                                            {
+                                                                                "name":  "control_calibration_20260321T235249.807624Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260321T235249.807624Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418564)\/",
+                                                                                "length":  12689
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T002937.901797Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T002937.901797Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418566)\/",
+                                                                                "length":  19618
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T003527.142689Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T003527.142689Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418568)\/",
+                                                                                "length":  19467
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T004816.924635Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T004816.924635Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418569)\/",
+                                                                                "length":  1628
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T004831.634772Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T004831.634772Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418569)\/",
+                                                                                "length":  1618
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T012644.644119Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T012644.644119Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418571)\/",
+                                                                                "length":  38467
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T020053.920965Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T020053.920965Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418573)\/",
+                                                                                "length":  35674
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T020153.353678Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T020153.353678Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418574)\/",
+                                                                                "length":  35895
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T022724.190160Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T022724.190160Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418576)\/",
+                                                                                "length":  33052
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T024520.909851Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T024520.909851Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418577)\/",
+                                                                                "length":  40211
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T024611.985351Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T024611.985351Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418579)\/",
+                                                                                "length":  40456
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T031400.166302Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T031400.166302Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418580)\/",
+                                                                                "length":  39362
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T031447.691223Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T031447.691223Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418583)\/",
+                                                                                "length":  39338
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T033504.676211Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T033504.676211Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418584)\/",
+                                                                                "length":  43138
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260322T034754.637499Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T034754.637499Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418586)\/",
+                                                                                "length":  43286
+                                                                            },
+                                                                            {
+                                                                                "name":  "control_calibration_20260323T145714.089143Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260323T145714.089143Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418588)\/",
+                                                                                "length":  39566
+                                                                            }
+                                                                        ]
+                                                       },
+                                                       {
+                                                           "name":  "manual_training",
+                                                           "type":  "dir",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training",
+                                                           "lastWriteTime":  "\/Date(1774888418611)\/",
+                                                           "children":  [
+                                                                            {
+                                                                                "name":  "manual_session_20260321T033015.941301Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260321T033015.941301Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418593)\/",
+                                                                                "length":  368
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260321T033056.092939Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260321T033056.092939Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418594)\/",
+                                                                                "length":  365
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260321T212424.989003Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260321T212424.989003Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418595)\/",
+                                                                                "length":  364
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T003145.645317Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T003145.645317Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418599)\/",
+                                                                                "length":  373
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031526.348247Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031526.348247Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418600)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031533.701925Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031533.701925Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418601)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031541.518650Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031541.518650Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418602)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031545.297829Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031545.297829Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418603)\/",
+                                                                                "length":  367
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031549.031202Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031549.031202Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418604)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031555.752340Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031555.752340Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418605)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031605.317048Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031605.317048Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418606)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031611.501941Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031611.501941Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418607)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260322T031625.153083Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031625.153083Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418608)\/",
+                                                                                "length":  369
+                                                                            },
+                                                                            {
+                                                                                "name":  "manual_session_20260326T112946.466534Z.summary.json",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260326T112946.466534Z.summary.json",
+                                                                                "lastWriteTime":  "\/Date(1774888418612)\/",
+                                                                                "length":  371
+                                                                            }
+                                                                        ]
+                                                       },
+                                                       {
+                                                           "name":  "bronze_ingest_state.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\bronze_ingest_state.json",
+                                                           "lastWriteTime":  "\/Date(1774888418563)\/",
+                                                           "length":  174
+                                                       },
+                                                       {
+                                                           "name":  "control_calibration_last_run.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration_last_run.json",
+                                                           "lastWriteTime":  "\/Date(1774888418588)\/",
+                                                           "length":  39566
+                                                       },
+                                                       {
+                                                           "name":  "control_calibration_memory.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration_memory.json",
+                                                           "lastWriteTime":  "\/Date(1774888418589)\/",
+                                                           "length":  19653
+                                                       },
+                                                       {
+                                                           "name":  "control_calibration_profile.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_calibration_profile.json",
+                                                           "lastWriteTime":  "\/Date(1774888418590)\/",
+                                                           "length":  8715
+                                                       },
+                                                       {
+                                                           "name":  "control_tuning.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\control_tuning.json",
+                                                           "lastWriteTime":  "\/Date(1774888418590)\/",
+                                                           "length":  4778
+                                                       },
+                                                       {
+                                                           "name":  "dashboard_control_status.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\dashboard_control_status.json",
+                                                           "lastWriteTime":  "\/Date(1774524744323)\/",
+                                                           "length":  608
+                                                       },
+                                                       {
+                                                           "name":  "dashboard_runtime_status.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\dashboard_runtime_status.json",
+                                                           "lastWriteTime":  "\/Date(1774525131218)\/",
+                                                           "length":  519
+                                                       },
+                                                       {
+                                                           "name":  "forge_calibration_profiles.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\forge_calibration_profiles.json",
+                                                           "lastWriteTime":  "\/Date(1774888418591)\/",
+                                                           "length":  1181
+                                                       },
+                                                       {
+                                                           "name":  "learned_blocking_block_ids.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\learned_blocking_block_ids.json",
+                                                           "lastWriteTime":  "\/Date(1774888418591)\/",
+                                                           "length":  4009
+                                                       },
+                                                       {
+                                                           "name":  "mine_bounds.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\mine_bounds.json",
+                                                           "lastWriteTime":  "\/Date(1774888418612)\/",
+                                                           "length":  912
+                                                       },
+                                                       {
+                                                           "name":  "perimeter_scout_last_run.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\perimeter_scout_last_run.json",
+                                                           "lastWriteTime":  "\/Date(1774888418613)\/",
+                                                           "length":  116249
+                                                       },
+                                                       {
+                                                           "name":  "perimeter_scout_memory.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\perimeter_scout_memory.json",
+                                                           "lastWriteTime":  "\/Date(1774888418613)\/",
+                                                           "length":  33368
+                                                       },
+                                                       {
+                                                           "name":  "recovery_policy.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\recovery_policy.json",
+                                                           "lastWriteTime":  "\/Date(1774888418613)\/",
+                                                           "length":  1470
+                                                       },
+                                                       {
+                                                           "name":  "strategy_stats.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\strategy_stats.json",
+                                                           "lastWriteTime":  "\/Date(1774888418615)\/",
+                                                           "length":  110756
+                                                       },
+                                                       {
+                                                           "name":  "voxel_world_memory.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\data\\voxel_world_memory.json",
+                                                           "lastWriteTime":  "\/Date(1774888418615)\/",
+                                                           "length":  47087
+                                                       }
+                                                   ]
+                                  },
+                                  {
+                                      "name":  "src",
+                                      "type":  "dir",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\src",
+                                      "lastWriteTime":  "\/Date(1765133745082)\/",
+                                      "children":  [
+                                                       {
+                                                           "name":  "minecraft_auto_miner",
+                                                           "type":  "dir",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner",
+                                                           "lastWriteTime":  "\/Date(1774888418631)\/",
+                                                           "children":  [
+                                                                            {
+                                                                                "name":  "dashboard",
+                                                                                "type":  "dir",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\dashboard",
+                                                                                "lastWriteTime":  "\/Date(1774888418621)\/",
+                                                                                "children":  [
+                                                                                                 {
+                                                                                                     "name":  "main_streamlit.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\dashboard\\main_streamlit.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418621)\/",
+                                                                                                     "length":  82631
+                                                                                                 }
+                                                                                             ]
+                                                                            },
+                                                                            {
+                                                                                "name":  "forge",
+                                                                                "type":  "dir",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\forge",
+                                                                                "lastWriteTime":  "\/Date(1774888418623)\/",
+                                                                                "children":  [
+                                                                                                 {
+                                                                                                     "name":  "pose_provider.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\forge\\pose_provider.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418623)\/",
+                                                                                                     "length":  13194
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "__init__.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\forge\\__init__.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418622)\/",
+                                                                                                     "length":  628
+                                                                                                 }
+                                                                                             ]
+                                                                            },
+                                                                            {
+                                                                                "name":  "learning",
+                                                                                "type":  "dir",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\learning",
+                                                                                "lastWriteTime":  "\/Date(1774888418624)\/",
+                                                                                "children":  [
+                                                                                                 {
+                                                                                                     "name":  "reward_engine.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\learning\\reward_engine.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418624)\/",
+                                                                                                     "length":  6632
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "__init__.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\learning\\__init__.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418624)\/",
+                                                                                                     "length":  483
+                                                                                                 }
+                                                                                             ]
+                                                                            },
+                                                                            {
+                                                                                "name":  "telemetry",
+                                                                                "type":  "dir",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry",
+                                                                                "lastWriteTime":  "\/Date(1774888418631)\/",
+                                                                                "children":  [
+                                                                                                 {
+                                                                                                     "name":  "bronze_f3_ingest.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\bronze_f3_ingest.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418628)\/",
+                                                                                                     "length":  12946
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "episodes_from_silver.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\episodes_from_silver.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418629)\/",
+                                                                                                     "length":  29613
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "fsm_event_log.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\fsm_event_log.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418629)\/",
+                                                                                                     "length":  4414
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "gold_views.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\gold_views.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418629)\/",
+                                                                                                     "length":  6676
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "silver_f3_compress.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\silver_f3_compress.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418630)\/",
+                                                                                                     "length":  7620
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "telemetry_collector.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\telemetry_collector.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418631)\/",
+                                                                                                     "length":  24081
+                                                                                                 },
+                                                                                                 {
+                                                                                                     "name":  "__init__.py",
+                                                                                                     "type":  "file",
+                                                                                                     "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\telemetry\\__init__.py",
+                                                                                                     "lastWriteTime":  "\/Date(1774888418627)\/",
+                                                                                                     "length":  120
+                                                                                                 }
+                                                                                             ]
+                                                                            },
+                                                                            {
+                                                                                "name":  "app.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\app.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418620)\/",
+                                                                                "length":  372107
+                                                                            },
+                                                                            {
+                                                                                "name":  "config_loader.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\config_loader.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418620)\/",
+                                                                                "length":  2802
+                                                                            },
+                                                                            {
+                                                                                "name":  "input_controller.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\input_controller.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418623)\/",
+                                                                                "length":  11615
+                                                                            },
+                                                                            {
+                                                                                "name":  "logging_utils.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\logging_utils.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418624)\/",
+                                                                                "length":  2599
+                                                                            },
+                                                                            {
+                                                                                "name":  "metrics.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\metrics.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418627)\/",
+                                                                                "length":  7512
+                                                                            },
+                                                                            {
+                                                                                "name":  "world_model_forge.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\world_model_forge.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418631)\/",
+                                                                                "length":  3647
+                                                                            },
+                                                                            {
+                                                                                "name":  "__init__.py",
+                                                                                "type":  "file",
+                                                                                "fullPath":  "E:\\Minecraft_auto_miner\\src\\minecraft_auto_miner\\__init__.py",
+                                                                                "lastWriteTime":  "\/Date(1774888418617)\/",
+                                                                                "length":  174
+                                                                            }
+                                                                        ]
+                                                       }
+                                                   ]
+                                  },
+                                  {
+                                      "name":  "tree",
+                                      "type":  "dir",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\tree",
+                                      "lastWriteTime":  "\/Date(1774888481310)\/",
+                                      "children":  [
+                                                       {
+                                                           "name":  "Minecraft_auto_miner.tree.prev.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\tree\\Minecraft_auto_miner.tree.prev.json",
+                                                           "lastWriteTime":  "\/Date(1774888418632)\/",
+                                                           "length":  70043
+                                                       },
+                                                       {
+                                                           "name":  "Minecraft_auto_miner.tree_20260330_122246.json",
+                                                           "type":  "file",
+                                                           "fullPath":  "E:\\Minecraft_auto_miner\\tree\\Minecraft_auto_miner.tree_20260330_122246.json",
+                                                           "lastWriteTime":  "\/Date(1774888418633)\/",
+                                                           "length":  70043
+                                                       }
+                                                   ]
+                                  },
+                                  {
+                                      "name":  ".gitignore",
+                                      "type":  "file",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\.gitignore",
+                                      "lastWriteTime":  "\/Date(1774888418554)\/",
+                                      "length":  229
+                                  },
+                                  {
+                                      "name":  "docker-compose.yml",
+                                      "type":  "file",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\docker-compose.yml",
+                                      "lastWriteTime":  "\/Date(1774888418616)\/",
+                                      "length":  462
+                                  },
+                                  {
+                                      "name":  "Implementation_plan.md",
+                                      "type":  "file",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\Implementation_plan.md",
+                                      "lastWriteTime":  "\/Date(1774888418555)\/",
+                                      "length":  24965
+                                  },
+                                  {
+                                      "name":  "pyproject.toml",
+                                      "type":  "file",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\pyproject.toml",
+                                      "lastWriteTime":  "\/Date(1774888418616)\/",
+                                      "length":  800
+                                  },
+                                  {
+                                      "name":  "README.md",
+                                      "type":  "file",
+                                      "fullPath":  "E:\\Minecraft_auto_miner\\README.md",
+                                      "lastWriteTime":  "\/Date(1774888418555)\/",
+                                      "length":  10101
+                                  }
+                              ]
+             }
+}

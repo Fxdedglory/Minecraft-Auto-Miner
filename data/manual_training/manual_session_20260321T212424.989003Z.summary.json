@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "reason": "panic_stop",
+  "started_at_utc": "2026-03-21T21:24:24.989003+00:00",
+  "stopped_at_utc": "2026-03-21T21:24:43.294322+00:00",
+  "duration_sec": 18.313,
+  "sample_count": 164,
+  "sample_interval_sec": 0.05,
+  "session_path": "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260321T212424.989003Z.jsonl"
+}

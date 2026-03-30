@@ -1,0 +1,34 @@
+[project]
+name = "minecraft-auto-miner"
+version = "0.4.7"
+description = "Minecraft Auto Miner v0.4.x – modular hotkey-based miner"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyautogui>=0.9",
+    "keyboard>=0.13",
+    "mouse>=0.7",
+    "pyyaml>=6.0",
+    "pydirectinput>=1.0",
+    "sounddevice>=0.4",
+    "numpy>=1.26",
+    "psycopg[binary]",
+    "psycopg2[binary]",
+    "streamlit>=1.40",
+    "streamlit-autorefresh",
+    "python-dotenv>=1.0",
+    "plotly"
+]
+
+[project.scripts]
+minecraft-auto-miner = "minecraft_auto_miner.app:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/minecraft_auto_miner"]
+
+[tool.uv]
+# uv default config; can stay empty for now

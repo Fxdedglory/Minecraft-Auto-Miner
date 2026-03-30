@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "mode": "control_calibration",
+  "status": "failed",
+  "started_at_utc": "2026-03-22T00:48:17.000541+00:00",
+  "duration_sec": 3.188,
+  "sample_count": 0,
+  "session_path": "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T004816.924635Z.jsonl",
+  "strict_mouse_calibration": {
+    "preferred_mouse_backend": "win32",
+    "yaw_step_right_deg": 0.172,
+    "yaw_step_left_deg": -0.171,
+    "yaw_step_pixels": 3,
+    "yaw_deg_per_pixel": 0.057167,
+    "horizontal_calibration_ready": true
+  },
+  "initial_pose": {
+    "x": 4863.5,
+    "y": 153.743,
+    "z": 16800.5,
+    "yaw": -90.572,
+    "pitch": 2.691
+  },
+  "final_pose": {
+    "x": 4863.5,
+    "y": 153.743,
+    "z": 16800.5,
+    "yaw": -90.572,
+    "pitch": 2.691
+  },
+  "expected_start_state": "grounded_non_flying",
+  "preflight_validation": {
+    "expected_start_state": "grounded_non_flying",
+    "initial_pose_state": {
+      "on_ground": false,
+      "is_sprinting": false,
+      "inferred_motion_state": "hovering_or_flying",
+      "vertical_speed_bps": 0.0,
+      "horizontal_speed_bps": 0.0
+    },
+    "ground_contact_normalized": false,
+    "passed": false,
+    "reason": "Unable to normalize to grounded state before calibration."
+  },
+  "validation": {
+    "passed": false,
+    "failure_count": 1,
+    "failures": [
+      "Calibration preflight failed: expected grounded non-flying start state but observed a different control state."
+    ]
+  },
+  "segments": [],
+  "scout_report_path": "E:\\Minecraft_auto_miner\\data\\perimeter_scout_last_run.json"
+}

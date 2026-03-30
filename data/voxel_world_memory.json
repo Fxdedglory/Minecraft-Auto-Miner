@@ -1,0 +1,1519 @@
+{
+  "version": "1.0",
+  "regions": {
+    "prison_mine_east_lane": {
+      "voxels": {
+        "4924,128,16800": {
+          "x": 4924,
+          "y": 128,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:10:53.603471+00:00"
+        },
+        "4924,127,16800": {
+          "x": 4924,
+          "y": 127,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T10:59:40.932540+00:00"
+        },
+        "4924,126,16800": {
+          "x": 4924,
+          "y": 126,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T10:59:40.881639+00:00"
+        },
+        "4924,124,16800": {
+          "x": 4924,
+          "y": 124,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T16:15:28.886657+00:00"
+        },
+        "4924,125,16800": {
+          "x": 4924,
+          "y": 125,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:32:43.056548+00:00"
+        },
+        "4872,123,16801": {
+          "x": 4872,
+          "y": 123,
+          "z": 16801,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T16:15:44.476741+00:00"
+        },
+        "4872,124,16801": {
+          "x": 4872,
+          "y": 124,
+          "z": 16801,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T16:15:44.887093+00:00"
+        },
+        "4872,124,16800": {
+          "x": 4872,
+          "y": 124,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T10:59:53.403372+00:00"
+        },
+        "4872,125,16800": {
+          "x": 4872,
+          "y": 125,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T16:16:03.536981+00:00"
+        },
+        "4924,146,16800": {
+          "x": 4924,
+          "y": 146,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:10:39.074053+00:00"
+        },
+        "4872,140,16803": {
+          "x": 4872,
+          "y": 140,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:02:42.566250+00:00"
+        },
+        "4872,141,16803": {
+          "x": 4872,
+          "y": 141,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:24:09.694378+00:00"
+        },
+        "4872,138,16803": {
+          "x": 4872,
+          "y": 138,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:02:43.424222+00:00"
+        },
+        "4872,139,16804": {
+          "x": 4872,
+          "y": 139,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:03:20.235610+00:00"
+        },
+        "4872,138,16804": {
+          "x": 4872,
+          "y": 138,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:03:20.389223+00:00"
+        },
+        "4872,137,16804": {
+          "x": 4872,
+          "y": 137,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:03:19.929786+00:00"
+        },
+        "4924,132,16806": {
+          "x": 4924,
+          "y": 132,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:03:47.823935+00:00"
+        },
+        "4924,133,16806": {
+          "x": 4924,
+          "y": 133,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:03:48.937823+00:00"
+        },
+        "4872,112,16807": {
+          "x": 4872,
+          "y": 112,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:04:09.212470+00:00"
+        },
+        "4872,111,16807": {
+          "x": 4872,
+          "y": 111,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:04:08.958765+00:00"
+        },
+        "4924,110,16803": {
+          "x": 4924,
+          "y": 110,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:04:38.954851+00:00"
+        },
+        "4924,111,16803": {
+          "x": 4924,
+          "y": 111,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:04:39.005479+00:00"
+        },
+        "4924,111,16804": {
+          "x": 4924,
+          "y": 111,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:04:40.284850+00:00"
+        },
+        "4924,112,16804": {
+          "x": 4924,
+          "y": 112,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:04:41.494769+00:00"
+        },
+        "4924,143,16800": {
+          "x": 4924,
+          "y": 143,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:34:34.846958+00:00"
+        },
+        "4924,144,16800": {
+          "x": 4924,
+          "y": 144,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:23:52.916205+00:00"
+        },
+        "4872,142,16802": {
+          "x": 4872,
+          "y": 142,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:24:10.002740+00:00"
+        },
+        "4924,136,16805": {
+          "x": 4924,
+          "y": 136,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:24:35.299476+00:00"
+        },
+        "4924,136,16804": {
+          "x": 4924,
+          "y": 136,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:24:36.376942+00:00"
+        },
+        "4924,137,16804": {
+          "x": 4924,
+          "y": 137,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:24:37.751318+00:00"
+        },
+        "4872,127,16805": {
+          "x": 4872,
+          "y": 127,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:25:07.168086+00:00"
+        },
+        "4872,126,16805": {
+          "x": 4872,
+          "y": 126,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:25:06.009901+00:00"
+        },
+        "4924,142,16800": {
+          "x": 4924,
+          "y": 142,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:34:34.642366+00:00"
+        },
+        "4872,131,16804": {
+          "x": 4872,
+          "y": 131,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:35:03.791413+00:00"
+        },
+        "4872,132,16803": {
+          "x": 4872,
+          "y": 132,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:35:04.841448+00:00"
+        },
+        "4872,130,16805": {
+          "x": 4872,
+          "y": 130,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:35:12.607575+00:00"
+        },
+        "4872,130,16806": {
+          "x": 4872,
+          "y": 130,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T18:35:12.761139+00:00"
+        },
+        "4924,130,16800": {
+          "x": 4924,
+          "y": 130,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:00:40.984973+00:00"
+        },
+        "4872,127,16804": {
+          "x": 4872,
+          "y": 127,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:01:06.676185+00:00"
+        },
+        "4872,127,16803": {
+          "x": 4872,
+          "y": 127,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:01:09.618662+00:00"
+        },
+        "4872,126,16803": {
+          "x": 4872,
+          "y": 126,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:01:08.122798+00:00"
+        },
+        "4872,128,16803": {
+          "x": 4872,
+          "y": 128,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:01:08.411208+00:00"
+        },
+        "4924,148,16800": {
+          "x": 4924,
+          "y": 148,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:10:39.225971+00:00"
+        },
+        "4924,149,16799": {
+          "x": 4924,
+          "y": 149,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:47:58.531897+00:00"
+        },
+        "4872,130,16799": {
+          "x": 4872,
+          "y": 130,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:48:26.197547+00:00"
+        },
+        "4872,129,16799": {
+          "x": 4872,
+          "y": 129,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:48:25.125798+00:00"
+        },
+        "4872,128,16799": {
+          "x": 4872,
+          "y": 128,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:48:24.993013+00:00"
+        },
+        "4924,110,16799": {
+          "x": 4924,
+          "y": 110,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:48:53.437690+00:00"
+        },
+        "4924,112,16799": {
+          "x": 4924,
+          "y": 112,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:48:56.945678+00:00"
+        },
+        "4872,97,16800": {
+          "x": 4872,
+          "y": 97,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:49:28.390465+00:00"
+        },
+        "4872,98,16800": {
+          "x": 4872,
+          "y": 98,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:49:26.883447+00:00"
+        },
+        "4924,96,16800": {
+          "x": 4924,
+          "y": 96,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:49:55.898592+00:00"
+        },
+        "4924,95,16800": {
+          "x": 4924,
+          "y": 95,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:49:56.360350+00:00"
+        },
+        "4924,97,16800": {
+          "x": 4924,
+          "y": 97,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:49:57.294136+00:00"
+        },
+        "4924,98,16800": {
+          "x": 4924,
+          "y": 98,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:49:57.345454+00:00"
+        },
+        "4872,83,16803": {
+          "x": 4872,
+          "y": 83,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:11:42.976703+00:00"
+        },
+        "4872,83,16802": {
+          "x": 4872,
+          "y": 83,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:50:39.415792+00:00"
+        },
+        "4872,82,16802": {
+          "x": 4872,
+          "y": 82,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:50:28.522419+00:00"
+        },
+        "4872,83,16804": {
+          "x": 4872,
+          "y": 83,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:50:37.932854+00:00"
+        },
+        "4924,84,16802": {
+          "x": 4924,
+          "y": 84,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:50:50.752463+00:00"
+        },
+        "4924,83,16802": {
+          "x": 4924,
+          "y": 83,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:50:50.640703+00:00"
+        },
+        "4872,84,16803": {
+          "x": 4872,
+          "y": 84,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:51:06.654479+00:00"
+        },
+        "4924,82,16803": {
+          "x": 4924,
+          "y": 82,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:51:15.516210+00:00"
+        },
+        "4872,65,16806": {
+          "x": 4872,
+          "y": 65,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:51:45.945589+00:00"
+        },
+        "4872,64,16806": {
+          "x": 4872,
+          "y": 64,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:51:46.200250+00:00"
+        },
+        "4872,63,16806": {
+          "x": 4872,
+          "y": 63,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:51:46.667518+00:00"
+        },
+        "4924,65,16807": {
+          "x": 4924,
+          "y": 65,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:14.385769+00:00"
+        },
+        "4924,64,16807": {
+          "x": 4924,
+          "y": 64,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:13.533365+00:00"
+        },
+        "4924,66,16807": {
+          "x": 4924,
+          "y": 66,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:14.487316+00:00"
+        },
+        "4872,54,16809": {
+          "x": 4872,
+          "y": 54,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:36.566903+00:00"
+        },
+        "4872,53,16809": {
+          "x": 4872,
+          "y": 53,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:36.767362+00:00"
+        },
+        "4924,134,16810": {
+          "x": 4924,
+          "y": 134,
+          "z": 16810,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:59.793567+00:00"
+        },
+        "4924,132,16810": {
+          "x": 4924,
+          "y": 132,
+          "z": 16810,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T19:52:58.571813+00:00"
+        },
+        "4924,147,16800": {
+          "x": 4924,
+          "y": 147,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:10:39.175470+00:00"
+        },
+        "4872,147,16800": {
+          "x": 4872,
+          "y": 147,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:10:46.870410+00:00"
+        },
+        "4872,148,16800": {
+          "x": 4872,
+          "y": 148,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:10:47.171297+00:00"
+        },
+        "4872,135,16800": {
+          "x": 4872,
+          "y": 135,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:11:22.171772+00:00"
+        },
+        "4872,136,16800": {
+          "x": 4872,
+          "y": 136,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:11:22.076327+00:00"
+        },
+        "4924,135,16800": {
+          "x": 4924,
+          "y": 135,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:11:42.872232+00:00"
+        },
+        "4924,132,16799": {
+          "x": 4924,
+          "y": 132,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:12:11.532505+00:00"
+        },
+        "4924,133,16799": {
+          "x": 4924,
+          "y": 133,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T20:12:11.957389+00:00"
+        },
+        "4872,113,16801": {
+          "x": 4872,
+          "y": 113,
+          "z": 16801,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:11:10.573137+00:00"
+        },
+        "4924,101,16803": {
+          "x": 4924,
+          "y": 101,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:11:28.484518+00:00"
+        },
+        "4924,65,16804": {
+          "x": 4924,
+          "y": 65,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:12:02.354646+00:00"
+        },
+        "4872,48,16806": {
+          "x": 4872,
+          "y": 48,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:12:20.634935+00:00"
+        },
+        "4872,48,16805": {
+          "x": 4872,
+          "y": 48,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:12:20.691094+00:00"
+        },
+        "4872,49,16805": {
+          "x": 4872,
+          "y": 49,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:12:20.816344+00:00"
+        },
+        "4924,31,16808": {
+          "x": 4924,
+          "y": 31,
+          "z": 16808,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:12:44.119462+00:00"
+        },
+        "4872,138,16809": {
+          "x": 4872,
+          "y": 138,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:13:03.885084+00:00"
+        },
+        "4872,139,16809": {
+          "x": 4872,
+          "y": 139,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:13:03.628109+00:00"
+        },
+        "4924,117,16809": {
+          "x": 4924,
+          "y": 117,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:13:21.884882+00:00"
+        },
+        "4924,118,16809": {
+          "x": 4924,
+          "y": 118,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:13:21.781245+00:00"
+        },
+        "4872,92,16811": {
+          "x": 4872,
+          "y": 92,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:13:46.674630+00:00"
+        },
+        "4872,93,16811": {
+          "x": 4872,
+          "y": 93,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:13:47.033468+00:00"
+        },
+        "4924,76,16812": {
+          "x": 4924,
+          "y": 76,
+          "z": 16812,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:14:07.912871+00:00"
+        },
+        "4924,77,16812": {
+          "x": 4924,
+          "y": 77,
+          "z": 16812,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:14:08.014906+00:00"
+        },
+        "4924,78,16812": {
+          "x": 4924,
+          "y": 78,
+          "z": 16812,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:14:09.111683+00:00"
+        },
+        "4872,63,16812": {
+          "x": 4872,
+          "y": 63,
+          "z": 16812,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:14:23.809496+00:00"
+        },
+        "4872,64,16812": {
+          "x": 4872,
+          "y": 64,
+          "z": 16812,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:14:23.758495+00:00"
+        },
+        "4872,33,16813": {
+          "x": 4872,
+          "y": 33,
+          "z": 16813,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:15:07.111902+00:00"
+        },
+        "4872,32,16813": {
+          "x": 4872,
+          "y": 32,
+          "z": 16813,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:15:07.214305+00:00"
+        },
+        "4924,15,16812": {
+          "x": 4924,
+          "y": 15,
+          "z": 16812,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-23T21:15:24.727180+00:00"
+        },
+        "4924,105,16803": {
+          "x": 4924,
+          "y": 105,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:15.250481+00:00"
+        },
+        "4924,106,16803": {
+          "x": 4924,
+          "y": 106,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:15.353035+00:00"
+        },
+        "4872,106,16803": {
+          "x": 4872,
+          "y": 106,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:23.262318+00:00"
+        },
+        "4924,107,16804": {
+          "x": 4924,
+          "y": 107,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:36.900253+00:00"
+        },
+        "4872,106,16804": {
+          "x": 4872,
+          "y": 106,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:43.463599+00:00"
+        },
+        "4872,107,16804": {
+          "x": 4872,
+          "y": 107,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:43.565185+00:00"
+        },
+        "4924,97,16805": {
+          "x": 4924,
+          "y": 97,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:58.083736+00:00"
+        },
+        "4924,96,16805": {
+          "x": 4924,
+          "y": 96,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:00:58.185080+00:00"
+        },
+        "4872,78,16806": {
+          "x": 4872,
+          "y": 78,
+          "z": 16806,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:01:17.265679+00:00"
+        },
+        "4924,76,16807": {
+          "x": 4924,
+          "y": 76,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:01:37.611484+00:00"
+        },
+        "4924,77,16807": {
+          "x": 4924,
+          "y": 77,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-24T11:01:37.662524+00:00"
+        },
+        "4924,145,16800": {
+          "x": 4924,
+          "y": 145,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:19:55.105395+00:00"
+        },
+        "4872,144,16801": {
+          "x": 4872,
+          "y": 144,
+          "z": 16801,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:20:09.609904+00:00"
+        },
+        "4924,144,16802": {
+          "x": 4924,
+          "y": 144,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:20:24.061964+00:00"
+        },
+        "4872,145,16802": {
+          "x": 4872,
+          "y": 145,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:20:32.843509+00:00"
+        },
+        "4872,146,16802": {
+          "x": 4872,
+          "y": 146,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:20:33.356376+00:00"
+        },
+        "4924,122,16802": {
+          "x": 4924,
+          "y": 122,
+          "z": 16802,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:20:51.416532+00:00"
+        },
+        "4872,122,16803": {
+          "x": 4872,
+          "y": 122,
+          "z": 16803,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:21:13.099738+00:00"
+        },
+        "4872,121,16804": {
+          "x": 4872,
+          "y": 121,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:21:36.662908+00:00"
+        },
+        "4872,122,16804": {
+          "x": 4872,
+          "y": 122,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:21:36.714118+00:00"
+        },
+        "4872,123,16804": {
+          "x": 4872,
+          "y": 123,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:21:37.240788+00:00"
+        },
+        "4924,105,16805": {
+          "x": 4924,
+          "y": 105,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:21:55.001356+00:00"
+        },
+        "4924,106,16805": {
+          "x": 4924,
+          "y": 106,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:21:54.848693+00:00"
+        },
+        "4872,106,16805": {
+          "x": 4872,
+          "y": 106,
+          "z": 16805,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:22:12.798772+00:00"
+        },
+        "4872,119,16808": {
+          "x": 4872,
+          "y": 119,
+          "z": 16808,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:22:53.399617+00:00"
+        },
+        "4924,115,16809": {
+          "x": 4924,
+          "y": 115,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:05.541495+00:00"
+        },
+        "4872,95,16809": {
+          "x": 4872,
+          "y": 95,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:43.024831+00:00"
+        },
+        "4872,96,16809": {
+          "x": 4872,
+          "y": 96,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:19.874652+00:00"
+        },
+        "4924,94,16809": {
+          "x": 4924,
+          "y": 94,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:31.631308+00:00"
+        },
+        "4924,95,16809": {
+          "x": 4924,
+          "y": 95,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:55.508178+00:00"
+        },
+        "4872,94,16809": {
+          "x": 4872,
+          "y": 94,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:42.974024+00:00"
+        },
+        "4924,96,16809": {
+          "x": 4924,
+          "y": 96,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:25:55.763201+00:00"
+        },
+        "4872,79,16807": {
+          "x": 4872,
+          "y": 79,
+          "z": 16807,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:26:14.404988+00:00"
+        },
+        "4924,72,16808": {
+          "x": 4924,
+          "y": 72,
+          "z": 16808,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:26:43.534797+00:00"
+        },
+        "4924,71,16808": {
+          "x": 4924,
+          "y": 71,
+          "z": 16808,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:26:43.585614+00:00"
+        },
+        "4872,61,16808": {
+          "x": 4872,
+          "y": 61,
+          "z": 16808,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:27:07.209210+00:00"
+        },
+        "4924,150,16809": {
+          "x": 4924,
+          "y": 150,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:27:24.753660+00:00"
+        },
+        "4924,151,16809": {
+          "x": 4924,
+          "y": 151,
+          "z": 16809,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:27:25.111782+00:00"
+        },
+        "4872,151,16808": {
+          "x": 4872,
+          "y": 151,
+          "z": 16808,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:27:34.618311+00:00"
+        },
+        "4872,151,16810": {
+          "x": 4872,
+          "y": 151,
+          "z": 16810,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:27:56.495861+00:00"
+        },
+        "4924,151,16810": {
+          "x": 4924,
+          "y": 151,
+          "z": 16810,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:05.642776+00:00"
+        },
+        "4926,151,16811": {
+          "x": 4926,
+          "y": 151,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:granite",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:08.997079+00:00"
+        },
+        "4872,151,16811": {
+          "x": 4872,
+          "y": 151,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:18.500635+00:00"
+        },
+        "4871,152,16811": {
+          "x": 4871,
+          "y": 152,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:stone_button",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:18.556045+00:00"
+        },
+        "4870,151,16811": {
+          "x": 4870,
+          "y": 151,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:stone_brick_stairs",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:18.610810+00:00"
+        },
+        "4869,151,16811": {
+          "x": 4869,
+          "y": 151,
+          "z": 16811,
+          "state": "border",
+          "block_id": "minecraft:light_gray_concrete_powder",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:18.679300+00:00"
+        },
+        "4924,151,16813": {
+          "x": 4924,
+          "y": 151,
+          "z": 16813,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:28:31.050032+00:00"
+        },
+        "4872,112,16799": {
+          "x": 4872,
+          "y": 112,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:33:08.344856+00:00"
+        },
+        "4924,94,16799": {
+          "x": 4924,
+          "y": 94,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:33:25.620570+00:00"
+        },
+        "4872,79,16799": {
+          "x": 4872,
+          "y": 79,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:33:50.587726+00:00"
+        },
+        "4924,63,16799": {
+          "x": 4924,
+          "y": 63,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:34:16.579538+00:00"
+        },
+        "4872,63,16799": {
+          "x": 4872,
+          "y": 63,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:34:30.820286+00:00"
+        },
+        "4872,64,16799": {
+          "x": 4872,
+          "y": 64,
+          "z": 16799,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:34:30.872132+00:00"
+        },
+        "4924,41,16800": {
+          "x": 4924,
+          "y": 41,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:34:51.236095+00:00"
+        },
+        "4924,40,16800": {
+          "x": 4924,
+          "y": 40,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:34:51.287450+00:00"
+        },
+        "4872,39,16800": {
+          "x": 4872,
+          "y": 39,
+          "z": 16800,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:35:03.722700+00:00"
+        },
+        "4924,22,16804": {
+          "x": 4924,
+          "y": 22,
+          "z": 16804,
+          "state": "border",
+          "block_id": "minecraft:red_wool",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:35:28.344351+00:00"
+        },
+        "4877,151,16806": {
+          "x": 4877,
+          "y": 151,
+          "z": 16806,
+          "state": "mineable_unmined",
+          "block_id": "minecraft:stone",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:38:41.365551+00:00"
+        },
+        "4879,150,16804": {
+          "x": 4879,
+          "y": 150,
+          "z": 16804,
+          "state": "mineable_unmined",
+          "block_id": "minecraft:stone",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:38:43.580879+00:00"
+        },
+        "4879,151,16805": {
+          "x": 4879,
+          "y": 151,
+          "z": 16805,
+          "state": "mineable_unmined",
+          "block_id": "minecraft:stone",
+          "source": "mine_live",
+          "updated_at_utc": "2026-03-26T11:38:46.118402+00:00"
+        }
+      },
+      "configured_region": {
+        "name": "prison_mine_east_lane",
+        "dimension": "minecraft:overworld",
+        "min": {
+          "x": 4873,
+          "y": 4,
+          "z": 16774
+        },
+        "max": {
+          "x": 4924,
+          "y": 152,
+          "z": 16826
+        },
+        "allowed_block_ids": [
+          "minecraft:stone"
+        ],
+        "blocking_block_ids": [
+          "minecraft:ancient_debris",
+          "minecraft:brown_terracotta",
+          "minecraft:chiseled_stone_bricks",
+          "minecraft:clay",
+          "minecraft:dark_oak_planks",
+          "minecraft:dark_oak_stairs",
+          "minecraft:dripstone_block",
+          "minecraft:granite",
+          "minecraft:gray_concrete_powder",
+          "minecraft:light_gray_concrete_powder",
+          "minecraft:nether_brick_stairs",
+          "minecraft:nether_bricks",
+          "minecraft:nether_wart_block",
+          "minecraft:polished_basalt",
+          "minecraft:polished_deepslate",
+          "minecraft:polished_deepslate_stairs",
+          "minecraft:red_wool",
+          "minecraft:stone_brick_stairs",
+          "minecraft:stone_button",
+          "minecraft:tuff"
+        ]
+      },
+      "default_mineable_block_id": "minecraft:stone",
+      "region_name": "prison_mine_east_lane",
+      "updated_at_utc": "2026-03-26T11:38:46.156794+00:00",
+      "reset_count": 5,
+      "last_reset_at_utc": "2026-03-26T11:37:19.806914+00:00",
+      "last_reset_pose": {
+        "x": 4879.3,
+        "y": 152.0,
+        "z": 16804.7,
+        "yaw": 44.741,
+        "pitch": 36.809,
+        "ts_utc": "2026-03-26T11:37:19.768Z"
+      }
+    }
+  }
+}

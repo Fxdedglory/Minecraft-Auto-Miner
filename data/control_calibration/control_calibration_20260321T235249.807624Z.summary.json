@@ -1,0 +1,530 @@
+{
+  "version": "1.0",
+  "mode": "control_calibration",
+  "status": "complete",
+  "started_at_utc": "2026-03-21T23:52:51.675009+00:00",
+  "duration_sec": 30.094,
+  "sample_count": 329,
+  "session_path": "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260321T235249.807624Z.jsonl",
+  "strict_mouse_calibration": {
+    "preferred_mouse_backend": "win32",
+    "yaw_step_right_deg": 0.172,
+    "yaw_step_left_deg": -0.171,
+    "yaw_step_pixels": 3,
+    "yaw_deg_per_pixel": 0.057167,
+    "horizontal_calibration_ready": true
+  },
+  "initial_pose": {
+    "x": 4863.5,
+    "y": 152.0,
+    "z": 16800.5,
+    "yaw": -89.943,
+    "pitch": 0.0
+  },
+  "final_pose": {
+    "x": 4896.182,
+    "y": 152.0,
+    "z": 16800.872,
+    "yaw": -89.027,
+    "pitch": 0.0
+  },
+  "segments": [
+    {
+      "name": "idle_baseline",
+      "started_at_utc": "2026-03-21T23:52:52.300995+00:00",
+      "duration_sec": 1.5,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 10,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_right",
+      "started_at_utc": "2026-03-21T23:52:53.225372+00:00",
+      "duration_sec": 2.031,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -80.784,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 9.159,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 23,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_left",
+      "started_at_utc": "2026-03-21T23:52:55.256775+00:00",
+      "duration_sec": 2.0,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -80.784,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": -9.159,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 22,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_down",
+      "started_at_utc": "2026-03-21T23:52:57.260662+00:00",
+      "duration_sec": 1.516,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 3.664
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 3.664,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 18,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_up",
+      "started_at_utc": "2026-03-21T23:52:58.779714+00:00",
+      "duration_sec": 1.531,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 3.664
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": -3.664,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 19,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "forward",
+      "started_at_utc": "2026-03-21T23:53:00.305147+00:00",
+      "duration_sec": 3.031,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4875.76,
+        "y": 152.0,
+        "z": 16800.512,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 12.26,
+        "y": 0.0,
+        "z": 0.012,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 12.26
+      },
+      "avg_horizontal_speed_bps": 4.188,
+      "max_horizontal_speed_bps": 5.538,
+      "samples": 35,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "sprint_forward",
+      "started_at_utc": "2026-03-21T23:53:03.339314+00:00",
+      "duration_sec": 3.0,
+      "start_pose": {
+        "x": 4875.76,
+        "y": 152.0,
+        "z": 16800.512,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4892.109,
+        "y": 152.0,
+        "z": 16800.527,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 16.349,
+        "y": 0.0,
+        "z": 0.015,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 16.349
+      },
+      "avg_horizontal_speed_bps": 5.432,
+      "max_horizontal_speed_bps": 6.535,
+      "samples": 31,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "backward",
+      "started_at_utc": "2026-03-21T23:53:06.344317+00:00",
+      "duration_sec": 2.032,
+      "start_pose": {
+        "x": 4892.109,
+        "y": 152.0,
+        "z": 16800.527,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4884.784,
+        "y": 152.0,
+        "z": 16800.52,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": -7.325,
+        "y": 0.0,
+        "z": -0.007,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 7.325
+      },
+      "avg_horizontal_speed_bps": 4.095,
+      "max_horizontal_speed_bps": 4.886,
+      "samples": 23,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "strafe_left",
+      "started_at_utc": "2026-03-21T23:53:08.371023+00:00",
+      "duration_sec": 2.031,
+      "start_pose": {
+        "x": 4884.784,
+        "y": 152.0,
+        "z": 16800.52,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4884.1,
+        "y": 152.0,
+        "z": 16792.793,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": -0.684,
+        "y": 0.0,
+        "z": -7.727,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 7.757
+      },
+      "avg_horizontal_speed_bps": 4.123,
+      "max_horizontal_speed_bps": 4.909,
+      "samples": 23,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "strafe_right",
+      "started_at_utc": "2026-03-21T23:53:10.415350+00:00",
+      "duration_sec": 2.031,
+      "start_pose": {
+        "x": 4884.1,
+        "y": 152.0,
+        "z": 16792.793,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4884.094,
+        "y": 152.0,
+        "z": 16799.828,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": -0.006,
+        "y": 0.0,
+        "z": 7.035,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 7.035
+      },
+      "avg_horizontal_speed_bps": 4.044,
+      "max_horizontal_speed_bps": 4.886,
+      "samples": 22,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "diag_forward_right",
+      "started_at_utc": "2026-03-21T23:53:12.435204+00:00",
+      "duration_sec": 2.016,
+      "start_pose": {
+        "x": 4884.094,
+        "y": 152.0,
+        "z": 16799.828,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4889.819,
+        "y": 152.0,
+        "z": 16806.256,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 5.725,
+        "y": 0.0,
+        "z": 6.428,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 8.608
+      },
+      "avg_horizontal_speed_bps": 4.19,
+      "max_horizontal_speed_bps": 4.903,
+      "samples": 21,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "diag_forward_left",
+      "started_at_utc": "2026-03-21T23:53:14.451924+00:00",
+      "duration_sec": 2.015,
+      "start_pose": {
+        "x": 4889.819,
+        "y": 152.0,
+        "z": 16806.256,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4895.64,
+        "y": 152.0,
+        "z": 16801.406,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 5.821,
+        "y": 0.0,
+        "z": -4.85,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 7.577
+      },
+      "avg_horizontal_speed_bps": 3.96,
+      "max_horizontal_speed_bps": 5.819,
+      "samples": 22,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "jump",
+      "started_at_utc": "2026-03-21T23:53:16.461133+00:00",
+      "duration_sec": 1.032,
+      "start_pose": {
+        "x": 4895.64,
+        "y": 152.0,
+        "z": 16801.406,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.542,
+        "y": 0.0,
+        "z": -0.534,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.761
+      },
+      "avg_horizontal_speed_bps": 0.34,
+      "max_horizontal_speed_bps": 1.588,
+      "samples": 11,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "crouch",
+      "started_at_utc": "2026-03-21T23:53:17.490642+00:00",
+      "duration_sec": 1.5,
+      "start_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 16,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_right_fine",
+      "started_at_utc": "2026-03-21T23:53:18.986618+00:00",
+      "duration_sec": 1.515,
+      "start_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -89.943,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -86.279,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 3.664,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 18,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_left_fine",
+      "started_at_utc": "2026-03-21T23:53:20.498650+00:00",
+      "duration_sec": 1.25,
+      "start_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -86.279,
+        "pitch": 0.0
+      },
+      "end_pose": {
+        "x": 4896.182,
+        "y": 152.0,
+        "z": 16800.872,
+        "yaw": -89.027,
+        "pitch": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": -2.748,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 15,
+      "mouse_backend": "win32"
+    }
+  ],
+  "scout_report_path": "E:\\Minecraft_auto_miner\\data\\perimeter_scout_last_run.json"
+}

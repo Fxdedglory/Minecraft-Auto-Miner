@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "description": "Calibration profiles for Forge-based pose + movement (per mining profile).",
+  "_notes": [
+    "These values let you tune how Forge pose maps to your movement primitives.",
+    "You can add more profiles (keys) as you add strategies.",
+    "Numbers here are conservative defaults."
+  ],
+  "profiles": {
+    "straight_lane_default": {
+      "description": "Baseline straight-lane mining profile tuned for Forge F3 pose.",
+      "camera": {
+        "target_pitch_degrees": -30.0,
+        "yaw_sensitivity_deg_per_tick": 2.0,
+        "pitch_sensitivity_deg_per_tick": 2.0,
+        "max_yaw_error_deg": 5.0,
+        "max_pitch_error_deg": 5.0
+      },
+      "movement": {
+        "forward_speed_blocks_per_sec": 4.3,
+        "sprint_enabled": true,
+        "jump_on_obstacle": false,
+        "stop_on_blocking_target": true
+      },
+      "obstacle_handling": {
+        "treat_target_block_ids_as_solid": [
+          "minecraft:wool",
+          "minecraft:red_wool",
+          "minecraft:barrier"
+        ],
+        "backstep_ticks_on_blocking": 5,
+        "strafe_ticks_on_blocking": 8
+      }
+    }
+  }
+}

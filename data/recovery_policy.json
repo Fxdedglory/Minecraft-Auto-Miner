@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "epsilon": 0.12,
+  "stats": {
+    "heading:EAST|z:mid|look:OTHER|lp:1": {
+      "SHIFT_NEGATIVE": {
+        "count": 3,
+        "avg_reward": 1.7379999999996774
+      }
+    },
+    "heading:EAST|z:mid|look:BLOCKING|lp:0": {
+      "SHIFT_NEGATIVE": {
+        "count": 3,
+        "avg_reward": 3.6016666666667634
+      }
+    },
+    "heading:WEST|z:high|look:BLOCKING|lp:0": {
+      "SHIFT_NEGATIVE": {
+        "count": 3,
+        "avg_reward": 1.7716666666662302
+      },
+      "SHIFT_POSITIVE": {
+        "count": 1,
+        "avg_reward": -0.875
+      }
+    },
+    "heading:EAST|z:high|look:OTHER|lp:1": {
+      "SHIFT_POSITIVE": {
+        "count": 1,
+        "avg_reward": 1.6809999999995853
+      }
+    },
+    "heading:WEST|z:high|look:OTHER|lp:0": {
+      "SHIFT_POSITIVE": {
+        "count": 1,
+        "avg_reward": 5.126999999999498
+      }
+    },
+    "heading:EAST|z:low|look:BLOCKING|lp:0": {
+      "SHIFT_POSITIVE": {
+        "count": 1,
+        "avg_reward": 10.132000000000517
+      }
+    },
+    "heading:WEST|z:mid|look:BLOCKING|lp:0": {
+      "SHIFT_POSITIVE": {
+        "count": 1,
+        "avg_reward": 0.14099999999962165
+      },
+      "SHIFT_NEGATIVE": {
+        "count": 1,
+        "avg_reward": 5.75
+      }
+    },
+    "heading:EAST|z:mid|look:BLOCKING|lp:1": {
+      "SHIFT_NEGATIVE": {
+        "count": 1,
+        "avg_reward": 6.017000000000735
+      }
+    }
+  }
+}

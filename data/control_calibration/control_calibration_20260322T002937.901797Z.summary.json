@@ -1,0 +1,809 @@
+{
+  "version": "1.0",
+  "mode": "control_calibration",
+  "status": "complete",
+  "started_at_utc": "2026-03-22T00:29:37.998555+00:00",
+  "duration_sec": 30.109,
+  "sample_count": 315,
+  "session_path": "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T002937.901797Z.jsonl",
+  "strict_mouse_calibration": {
+    "preferred_mouse_backend": "win32",
+    "yaw_step_right_deg": 0.171,
+    "yaw_step_left_deg": -0.171,
+    "yaw_step_pixels": 3,
+    "yaw_deg_per_pixel": 0.057,
+    "horizontal_calibration_ready": true
+  },
+  "initial_pose": {
+    "x": 4863.5,
+    "y": 152.0,
+    "z": 16800.5,
+    "yaw": -90.0,
+    "pitch": 0.401
+  },
+  "final_pose": {
+    "x": 4970.537,
+    "y": 166.518,
+    "z": 16800.052,
+    "yaw": -90.057,
+    "pitch": 0.401
+  },
+  "segments": [
+    {
+      "name": "idle_baseline",
+      "started_at_utc": "2026-03-22T00:29:38.630883+00:00",
+      "duration_sec": 0.828,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.0,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": -0.057,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 3,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_right",
+      "started_at_utc": "2026-03-22T00:29:38.885193+00:00",
+      "duration_sec": 0.844,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -86.394,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 3.663,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 9,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_left",
+      "started_at_utc": "2026-03-22T00:29:39.734800+00:00",
+      "duration_sec": 0.812,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -86.394,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": -3.663,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 9,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_down",
+      "started_at_utc": "2026-03-22T00:29:40.534926+00:00",
+      "duration_sec": 0.829,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 2.233
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 1.832,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 10,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "look_up",
+      "started_at_utc": "2026-03-22T00:29:41.372708+00:00",
+      "duration_sec": 0.843,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 2.233
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": -1.832,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 9,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "forward",
+      "started_at_utc": "2026-03-22T00:29:42.210554+00:00",
+      "duration_sec": 1.813,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4870.364,
+        "y": 152.063,
+        "z": 16800.493,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 6.864,
+        "y": 0.063,
+        "z": -0.007,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 6.864
+      },
+      "avg_horizontal_speed_bps": 4.088,
+      "max_horizontal_speed_bps": 4.778,
+      "samples": 20,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "sprint_forward",
+      "started_at_utc": "2026-03-22T00:29:44.025940+00:00",
+      "duration_sec": 1.812,
+      "start_pose": {
+        "x": 4870.364,
+        "y": 152.063,
+        "z": 16800.493,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4879.978,
+        "y": 152.0,
+        "z": 16800.484,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 9.614,
+        "y": -0.063,
+        "z": -0.009,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 9.614
+      },
+      "avg_horizontal_speed_bps": 5.312,
+      "max_horizontal_speed_bps": 5.979,
+      "samples": 19,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "backward",
+      "started_at_utc": "2026-03-22T00:29:45.869540+00:00",
+      "duration_sec": 1.266,
+      "start_pose": {
+        "x": 4879.978,
+        "y": 152.0,
+        "z": 16800.484,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4876.603,
+        "y": 152.0,
+        "z": 16800.487,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": -3.375,
+        "y": 0.0,
+        "z": 0.003,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.375
+      },
+      "avg_horizontal_speed_bps": 3.823,
+      "max_horizontal_speed_bps": 4.696,
+      "samples": 14,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "strafe_left",
+      "started_at_utc": "2026-03-22T00:29:47.090601+00:00",
+      "duration_sec": 1.219,
+      "start_pose": {
+        "x": 4876.603,
+        "y": 152.0,
+        "z": 16800.487,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4875.908,
+        "y": 152.0,
+        "z": 16795.999,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": -0.695,
+        "y": 0.0,
+        "z": -4.488,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.541
+      },
+      "avg_horizontal_speed_bps": 4.073,
+      "max_horizontal_speed_bps": 4.778,
+      "samples": 14,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "strafe_right",
+      "started_at_utc": "2026-03-22T00:29:48.315547+00:00",
+      "duration_sec": 1.218,
+      "start_pose": {
+        "x": 4875.908,
+        "y": 152.0,
+        "z": 16795.999,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4875.911,
+        "y": 152.0,
+        "z": 16799.797,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.003,
+        "y": 0.0,
+        "z": 3.798,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.798
+      },
+      "avg_horizontal_speed_bps": 3.913,
+      "max_horizontal_speed_bps": 4.674,
+      "samples": 14,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "diag_forward_right",
+      "started_at_utc": "2026-03-22T00:29:49.533586+00:00",
+      "duration_sec": 1.235,
+      "start_pose": {
+        "x": 4875.911,
+        "y": 152.0,
+        "z": 16799.797,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4879.154,
+        "y": 152.0,
+        "z": 16803.508,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 3.243,
+        "y": 0.0,
+        "z": 3.711,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.928
+      },
+      "avg_horizontal_speed_bps": 4.208,
+      "max_horizontal_speed_bps": 4.871,
+      "samples": 13,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "diag_forward_left",
+      "started_at_utc": "2026-03-22T00:29:50.768693+00:00",
+      "duration_sec": 1.219,
+      "start_pose": {
+        "x": 4879.154,
+        "y": 152.0,
+        "z": 16803.508,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4882.889,
+        "y": 152.0,
+        "z": 16800.764,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 3.735,
+        "y": 0.0,
+        "z": -2.744,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.635
+      },
+      "avg_horizontal_speed_bps": 4.175,
+      "max_horizontal_speed_bps": 4.679,
+      "samples": 13,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "jump",
+      "started_at_utc": "2026-03-22T00:29:51.990266+00:00",
+      "duration_sec": 0.656,
+      "start_pose": {
+        "x": 4882.889,
+        "y": 152.0,
+        "z": 16800.764,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4883.348,
+        "y": 152.121,
+        "z": 16800.305,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.459,
+        "y": 0.121,
+        "z": -0.459,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.649
+      },
+      "avg_horizontal_speed_bps": 0.47,
+      "max_horizontal_speed_bps": 0.634,
+      "samples": 6,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "crouch",
+      "started_at_utc": "2026-03-22T00:29:52.641651+00:00",
+      "duration_sec": 0.625,
+      "start_pose": {
+        "x": 4883.348,
+        "y": 152.121,
+        "z": 16800.305,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4883.375,
+        "y": 152.0,
+        "z": 16800.278,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.027,
+        "y": -0.121,
+        "z": -0.027,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.038
+      },
+      "avg_horizontal_speed_bps": 0.05,
+      "max_horizontal_speed_bps": 0.265,
+      "samples": 7,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "toggle_fly_on",
+      "started_at_utc": "2026-03-22T00:29:53.278768+00:00",
+      "duration_sec": 0.828,
+      "start_pose": {
+        "x": 4883.375,
+        "y": 152.0,
+        "z": 16800.278,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4883.375,
+        "y": 153.784,
+        "z": 16800.278,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 1.784,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 7,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_up",
+      "started_at_utc": "2026-03-22T00:29:54.099425+00:00",
+      "duration_sec": 1.625,
+      "start_pose": {
+        "x": 4883.375,
+        "y": 153.784,
+        "z": 16800.278,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4883.375,
+        "y": 164.471,
+        "z": 16800.278,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 10.687,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 19,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_forward",
+      "started_at_utc": "2026-03-22T00:29:55.732381+00:00",
+      "duration_sec": 1.531,
+      "start_pose": {
+        "x": 4883.375,
+        "y": 164.471,
+        "z": 16800.278,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4893.507,
+        "y": 165.778,
+        "z": 16800.269,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 10.132,
+        "y": 1.307,
+        "z": -0.009,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 10.132
+      },
+      "avg_horizontal_speed_bps": 6.717,
+      "max_horizontal_speed_bps": 10.04,
+      "samples": 18,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_sprint_forward",
+      "started_at_utc": "2026-03-22T00:29:57.255925+00:00",
+      "duration_sec": 1.531,
+      "start_pose": {
+        "x": 4893.507,
+        "y": 165.778,
+        "z": 16800.269,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4919.636,
+        "y": 165.778,
+        "z": 16800.243,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 26.129,
+        "y": 0.0,
+        "z": -0.026,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 26.129
+      },
+      "avg_horizontal_speed_bps": 16.896,
+      "max_horizontal_speed_bps": 21.208,
+      "samples": 14,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_strafe_left",
+      "started_at_utc": "2026-03-22T00:29:58.783302+00:00",
+      "duration_sec": 1.422,
+      "start_pose": {
+        "x": 4919.636,
+        "y": 165.778,
+        "z": 16800.243,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4930.446,
+        "y": 165.778,
+        "z": 16791.108,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 10.81,
+        "y": 0.0,
+        "z": -9.135,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 14.153
+      },
+      "avg_horizontal_speed_bps": 11.506,
+      "max_horizontal_speed_bps": 20.298,
+      "samples": 16,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_strafe_right",
+      "started_at_utc": "2026-03-22T00:30:00.209608+00:00",
+      "duration_sec": 1.422,
+      "start_pose": {
+        "x": 4930.446,
+        "y": 165.778,
+        "z": 16791.108,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4931.226,
+        "y": 165.778,
+        "z": 16794.707,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.78,
+        "y": 0.0,
+        "z": 3.599,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.683
+      },
+      "avg_horizontal_speed_bps": 5.422,
+      "max_horizontal_speed_bps": 10.501,
+      "samples": 16,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_diag_forward_right",
+      "started_at_utc": "2026-03-22T00:30:01.633204+00:00",
+      "duration_sec": 1.625,
+      "start_pose": {
+        "x": 4931.226,
+        "y": 165.778,
+        "z": 16794.707,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4939.338,
+        "y": 165.778,
+        "z": 16807.484,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 8.112,
+        "y": 0.0,
+        "z": 12.777,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 15.135
+      },
+      "avg_horizontal_speed_bps": 9.703,
+      "max_horizontal_speed_bps": 13.181,
+      "samples": 16,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_diag_forward_left",
+      "started_at_utc": "2026-03-22T00:30:03.261726+00:00",
+      "duration_sec": 1.641,
+      "start_pose": {
+        "x": 4939.338,
+        "y": 165.778,
+        "z": 16807.484,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4951.315,
+        "y": 165.778,
+        "z": 16804.326,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 11.977,
+        "y": 0.0,
+        "z": -3.158,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 12.386
+      },
+      "avg_horizontal_speed_bps": 9.113,
+      "max_horizontal_speed_bps": 11.13,
+      "samples": 18,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_up_forward",
+      "started_at_utc": "2026-03-22T00:30:04.891783+00:00",
+      "duration_sec": 1.406,
+      "start_pose": {
+        "x": 4951.315,
+        "y": 165.778,
+        "z": 16804.326,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4964.85,
+        "y": 174.965,
+        "z": 16800.328,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 13.535,
+        "y": 9.187,
+        "z": -3.998,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 14.113
+      },
+      "avg_horizontal_speed_bps": 10.187,
+      "max_horizontal_speed_bps": 11.176,
+      "samples": 14,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "fly_down",
+      "started_at_utc": "2026-03-22T00:30:06.307103+00:00",
+      "duration_sec": 1.219,
+      "start_pose": {
+        "x": 4964.85,
+        "y": 174.965,
+        "z": 16800.328,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4970.122,
+        "y": 168.59,
+        "z": 16800.073,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 5.272,
+        "y": -6.375,
+        "z": -0.255,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 5.278
+      },
+      "avg_horizontal_speed_bps": 4.156,
+      "max_horizontal_speed_bps": 10.723,
+      "samples": 13,
+      "mouse_backend": "win32"
+    },
+    {
+      "name": "toggle_fly_off",
+      "started_at_utc": "2026-03-22T00:30:07.523872+00:00",
+      "duration_sec": 0.578,
+      "start_pose": {
+        "x": 4970.122,
+        "y": 168.59,
+        "z": 16800.073,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "end_pose": {
+        "x": 4970.537,
+        "y": 166.518,
+        "z": 16800.052,
+        "yaw": -90.057,
+        "pitch": 0.401
+      },
+      "delta": {
+        "x": 0.415,
+        "y": -2.072,
+        "z": -0.021,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.416
+      },
+      "avg_horizontal_speed_bps": 0.546,
+      "max_horizontal_speed_bps": 0.673,
+      "samples": 4,
+      "mouse_backend": "win32"
+    }
+  ],
+  "scout_report_path": "E:\\Minecraft_auto_miner\\data\\perimeter_scout_last_run.json"
+}

@@ -1,0 +1,142 @@
+hotkeys:
+  start_stop: f8
+  panic_stop: f9
+
+loop:
+  tick_interval_seconds: 0.08
+  auto_restart_episodes: true      # keep chaining new episodes until panic_stop
+  idle_pause_seconds: 1.0          # small pause between episodes
+  max_episodes: null               # set to an int if you want it to stop after N episodes
+  episode_time_limit_seconds: 70.0    # NEW – hard cap per episode
+
+startup:
+  focus_delay_seconds: 7.0         # time for MC window to be focused before starting
+
+movement:
+  forward_key: w
+  sprint_key: ctrl
+  mine_button: left
+  strafe_left_key: a      # NEW – used for barrier recovery
+  strafe_right_key: d     # NEW
+
+chat:
+  open_chat_key: "t"
+
+perception:
+  device_name: "CABLE Output (VB-Audio Virtual Cable)"  # or a distinctive substring
+  sample_rate: 44100
+  block_size: 2048
+  rms_debug_every_ticks: 50
+
+reset_detector:
+  spike_threshold: 0.08              # matches effective runtime thresholds
+  silence_threshold: 0.01
+  silence_duration_seconds: 1.5
+  max_window_after_spike_seconds: 4.0
+  
+stuck_detector:
+  barrier_window_seconds: 5.0          # window for "productive but stuck"
+  barrier_min_block_break_ratio: 0.98  # require "almost always breaking"
+  barrier_min_energy: 0.0
+  barrier_max_energy: 0.02
+
+  # Lane-aware low-progress guardrails (for autonomy)
+  low_progress_window_seconds: 8.0      # if blocks/min low for this long, trigger recovery
+  min_blocks_per_minute: 250            # below this = not worth continuing lane
+  max_recoveries_per_episode: 3         # after this, end episode and fully reset
+
+  # High-BPM wallhug guard (v0.5.5)
+  wallhug_window_seconds: 6.0
+  wallhug_blocks_per_min_threshold: 450.0
+  wallhug_requires_low_energy: false    # reserved for future use
+
+strategy:
+  auto_switch_enabled: true            # allow strategy to actually switch profiles
+  min_episode_duration_seconds: 30.0
+  min_valid_blocks: 0                  # <= allow learning even when blocks == 0
+  exploration_runs_per_profile: 2
+  epsilon: 0.15
+  weight_blocks_per_minute: 1.0
+  weight_mining_ratio: 0.0
+  auto_lock_best_profile: false        # keep it simple until we see data
+  min_total_valid_episodes_for_lock: 12
+  min_profile_valid_episodes_for_lock: 3
+  episode_time_limit_seconds: 30.0
+
+# Camera movement config: used by the camera primitives layer.
+camera:
+  yaw_step_small_pixels: 40
+  yaw_step_large_pixels: 90
+
+  pitch_step_small_pixels: 60
+  pitch_step_large_pixels: 140
+
+  step_duration_seconds: 0.04
+  smooth_substeps: 4
+
+# Hotkeys for manual camera calibration and debugging.
+camera_hotkeys:
+  f7: pitch_down_small        # look down a bit (multi-step, smooth)
+  f6: pitch_up_small          # look up a bit
+  f5: yaw_left_small          # small left turn
+  f4: yaw_right_small         # small right turn
+  ctrl+f5: yaw_left_large     # bigger left turn (multiple small steps)
+  ctrl+f4: yaw_right_large    # big right turn
+
+# ---------------------------------------------------------------------------
+# v0.5.x – World Model & Pose / Lane configuration
+# ---------------------------------------------------------------------------
+
+world_model:
+  enabled: true
+
+  # Mineable cube bounds for the current prison /gmine spawn.
+  # Current prison spawn observed from Forge F3 telemetry:
+  # x=4863.5, y=152.0, z=16800.5 facing east.
+  # Bounds calibrated from the successful v0.7.4 perimeter-scout run on 2026-03-20.
+  mine_bounds:
+    x_min: 4873
+    x_max: 4924
+    y_min: 4
+    y_max: 152
+    z_min: 16774
+    z_max: 16826
+
+  # Lane layout inside the cube.
+  lane:
+    y_lane: 152        # current observed spawn/top layer height
+    lane_spacing: 2    # gap between lane centerlines along Z
+
+pose:
+  provider: dead_reckoning   # future: "f3_manual", "ocr"
+  initial_spawn:
+    x: 4863                  # /gmine spawn
+    y: 152
+    z: 16800
+    facing: east             # EAST (+X)
+
+movement_primitives:
+  # These map directly to MovementCalibration defaults, but exposed in config
+  # so we can tune them from logs without touching code.
+  forward_block_seconds: 0.24
+  sprint_forward_block_seconds: 0.17
+  turn_90_degrees: 90.0
+
+lanes:
+  enabled: false                  # lane execution OFF for now
+  auto_start_after_gmine: false   # lane logic off for now
+  log_only: true                  # just in case anything touches it
+  max_alignment_ticks: 200        # (unused while disabled)
+  lane_completion_behavior: "next_lane"
+  out_of_bounds_behavior: "gmine_and_reset"
+  post_lane_pause_seconds: 0.5
+  lane_timeout_factor: 1.8
+
+# Logging tweaks
+logging:
+  mine_tick_log_every: 20        # only log 1 [MINE] entry every N ticks
+
+# Optional "recovery" progress watchdog overrides (used in app.py)
+recovery:
+  progress_window_seconds: 8.0       # was: 20.0
+  low_progress_blocks_per_minute: 250.0  # was: 10.0

@@ -1,0 +1,1503 @@
+{
+  "version": "1.0",
+  "mode": "control_calibration",
+  "status": "complete",
+  "started_at_utc": "2026-03-22T03:35:04.771512+00:00",
+  "duration_sec": 34.203,
+  "preflight_duration_sec": 2.172,
+  "scripted_duration_sec": 32.031,
+  "sample_count": 312,
+  "session_path": "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260322T033504.676211Z.jsonl",
+  "strict_mouse_calibration": {
+    "preferred_mouse_backend": "win32",
+    "yaw_step_right_deg": 0.172,
+    "yaw_step_left_deg": -0.172,
+    "yaw_step_pixels": 3,
+    "yaw_deg_per_pixel": 0.057333,
+    "horizontal_calibration_ready": true
+  },
+  "initial_pose": {
+    "x": 4863.5,
+    "y": 152.0,
+    "z": 16800.5,
+    "yaw": -89.657,
+    "pitch": -0.343
+  },
+  "final_pose": {
+    "x": 4911.225,
+    "y": 152.0,
+    "z": 16800.853,
+    "yaw": -89.714,
+    "pitch": -0.343
+  },
+  "expected_start_state": "grounded_non_flying",
+  "preflight_validation": {
+    "expected_start_state": "grounded_non_flying",
+    "initial_pose": {
+      "x": 4863.5,
+      "y": 152.0,
+      "z": 16800.5,
+      "yaw": -89.657,
+      "pitch": -0.343,
+      "on_ground": false,
+      "is_sprinting": false,
+      "dimension": "",
+      "ts_utc": "2026-03-22T03:35:04.704Z",
+      "heading": "EAST"
+    },
+    "initial_pose_state": {
+      "on_ground": false,
+      "is_sprinting": false,
+      "inferred_motion_state": "hovering_or_flying",
+      "vertical_speed_bps": 0.0,
+      "horizontal_speed_bps": 0.0
+    },
+    "initial_heading": "EAST",
+    "surface_y_hint": 152.0,
+    "normalization_actions": [],
+    "probes": [
+      {
+        "label": "preflight_space_hold_probe_1",
+        "inferred_state": "grounded_non_flying",
+        "start_on_ground": false,
+        "end_on_ground": false,
+        "peak_delta_y": 1.252,
+        "trough_delta_y": 0.0,
+        "end_delta_y": 0.0,
+        "duration_sec": 1.063
+      }
+    ],
+    "proceed": true,
+    "ready_for_profile": true,
+    "ground_contact_normalized": true,
+    "final_probe": {
+      "label": "preflight_space_hold_probe_1",
+      "inferred_state": "grounded_non_flying",
+      "start_on_ground": false,
+      "end_on_ground": false,
+      "peak_delta_y": 1.252,
+      "trough_delta_y": 0.0,
+      "end_delta_y": 0.0,
+      "duration_sec": 1.063
+    },
+    "normalized_pose": {
+      "x": 4863.5,
+      "y": 152.0,
+      "z": 16800.5,
+      "yaw": -89.714,
+      "pitch": -0.343,
+      "on_ground": false,
+      "is_sprinting": false,
+      "dimension": "",
+      "ts_utc": "2026-03-22T03:35:06.902Z",
+      "heading": "EAST"
+    },
+    "normalized_pose_state": {
+      "on_ground": false,
+      "is_sprinting": false,
+      "inferred_motion_state": "hovering_or_flying",
+      "vertical_speed_bps": 0.0,
+      "horizontal_speed_bps": 0.0
+    },
+    "normalized_heading": "EAST",
+    "baseline_yaw": -89.714,
+    "baseline_pitch": -0.343,
+    "effective_surface_contact": true,
+    "passed": true,
+    "reason": "Calibration preflight normalized to a grounded non-flying baseline before starting the scripted test."
+  },
+  "validation": {
+    "passed": false,
+    "segment_validation_passed": false,
+    "preflight_ready_for_profile": true,
+    "failure_count": 11,
+    "failures": [
+      "expected fly mode to engage before flight segments, observed probe_state=grounded_non_flying peak_delta_y=1.25 end_delta_y=0.00",
+      "expected confirmed-flight ascent, observed fly_enable_verified=False peak_delta_y=1.25 end_on_ground=False near_surface_end=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=5.13 avg_horizontal_speed=3.44 max_horizontal_speed=4.50 end_on_ground=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=8.21 avg_horizontal_speed=5.44 max_horizontal_speed=6.51 end_on_ground=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=4.53 avg_horizontal_speed=4.12 max_horizontal_speed=4.91 end_on_ground=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=3.80 avg_horizontal_speed=3.92 max_horizontal_speed=4.58 end_on_ground=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=6.19 avg_horizontal_speed=4.26 max_horizontal_speed=5.00 end_on_ground=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=5.26 avg_horizontal_speed=4.18 max_horizontal_speed=4.76 end_on_ground=False",
+      "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=3.78 avg_horizontal_speed=3.03 max_horizontal_speed=3.93 end_on_ground=False",
+      "expected confirmed-flight downward movement or landing, observed fly_enable_verified=False trough_delta_y=-0.80 end_on_ground=False",
+      "expected confirmed-flight descending forward motion, observed fly_enable_verified=False trough_delta_y=0.00 horizontal_distance=1.24"
+    ]
+  },
+  "segments": [
+    {
+      "name": "idle_baseline",
+      "started_at_utc": "2026-03-22T03:35:06.983863+00:00",
+      "duration_sec": 0.844,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 10,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "look_right",
+      "started_at_utc": "2026-03-22T03:35:07.856341+00:00",
+      "duration_sec": 0.844,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -86.05,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 3.664,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 10,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "look_left",
+      "started_at_utc": "2026-03-22T03:35:08.708453+00:00",
+      "duration_sec": 0.812,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -86.05,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": -3.664,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 9,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "look_down",
+      "started_at_utc": "2026-03-22T03:35:09.512447+00:00",
+      "duration_sec": 0.844,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": 1.488
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 1.831,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 1.831
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 9,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "look_up",
+      "started_at_utc": "2026-03-22T03:35:10.348611+00:00",
+      "duration_sec": 0.828,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": 1.488
+      },
+      "end_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": -1.831,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 1.831
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 9,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "forward",
+      "started_at_utc": "2026-03-22T03:35:11.183639+00:00",
+      "duration_sec": 1.828,
+      "start_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4870.58,
+        "y": 152.0,
+        "z": 16800.535,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "descending",
+        "vertical_speed_bps": -1.34,
+        "horizontal_speed_bps": 4.596
+      },
+      "delta": {
+        "x": 7.08,
+        "y": 0.0,
+        "z": 0.035,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 7.08,
+        "peak_delta_y": 0.063,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 4.093,
+      "max_horizontal_speed_bps": 5.268,
+      "samples": 21,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "sprint_forward",
+      "started_at_utc": "2026-03-22T03:35:13.000595+00:00",
+      "duration_sec": 1.844,
+      "start_pose": {
+        "x": 4870.58,
+        "y": 152.0,
+        "z": 16800.535,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4880.258,
+        "y": 152.0,
+        "z": 16800.584,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.057
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 5.091
+      },
+      "delta": {
+        "x": 9.678,
+        "y": 0.0,
+        "z": 0.049,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 9.678,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 5.485,
+      "max_horizontal_speed_bps": 6.691,
+      "samples": 20,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "backward",
+      "started_at_utc": "2026-03-22T03:35:14.850859+00:00",
+      "duration_sec": 1.219,
+      "start_pose": {
+        "x": 4880.258,
+        "y": 152.0,
+        "z": 16800.584,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4876.668,
+        "y": 152.0,
+        "z": 16800.566,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 5.979
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.154
+      },
+      "delta": {
+        "x": -3.59,
+        "y": 0.0,
+        "z": -0.018,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.59,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 4.153,
+      "max_horizontal_speed_bps": 5.51,
+      "samples": 12,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "strafe_left",
+      "started_at_utc": "2026-03-22T03:35:16.166351+00:00",
+      "duration_sec": 1.234,
+      "start_pose": {
+        "x": 4876.668,
+        "y": 152.0,
+        "z": 16800.566,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4875.997,
+        "y": 152.0,
+        "z": 16796.505,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 2.511
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.235
+      },
+      "delta": {
+        "x": -0.671,
+        "y": 0.0,
+        "z": -4.061,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.116,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 3.938,
+      "max_horizontal_speed_bps": 4.756,
+      "samples": 11,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "strafe_right",
+      "started_at_utc": "2026-03-22T03:35:17.307216+00:00",
+      "duration_sec": 1.25,
+      "start_pose": {
+        "x": 4875.997,
+        "y": 152.0,
+        "z": 16796.505,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4875.978,
+        "y": 152.0,
+        "z": 16800.303,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.076
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.5
+      },
+      "delta": {
+        "x": -0.019,
+        "y": 0.0,
+        "z": 3.798,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.798,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 3.989,
+      "max_horizontal_speed_bps": 4.75,
+      "samples": 14,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "diag_forward_right",
+      "started_at_utc": "2026-03-22T03:35:18.557299+00:00",
+      "duration_sec": 1.203,
+      "start_pose": {
+        "x": 4875.978,
+        "y": 152.0,
+        "z": 16800.303,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4878.887,
+        "y": 152.0,
+        "z": 16803.936,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.5
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 3.998
+      },
+      "delta": {
+        "x": 2.909,
+        "y": 0.0,
+        "z": 3.633,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.654,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 3.871,
+      "max_horizontal_speed_bps": 4.884,
+      "samples": 13,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "diag_forward_left",
+      "started_at_utc": "2026-03-22T03:35:19.760040+00:00",
+      "duration_sec": 1.235,
+      "start_pose": {
+        "x": 4878.887,
+        "y": 152.0,
+        "z": 16803.936,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4882.639,
+        "y": 152.0,
+        "z": 16801.214,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 3.023
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.312
+      },
+      "delta": {
+        "x": 3.752,
+        "y": 0.0,
+        "z": -2.722,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.635,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 4.136,
+      "max_horizontal_speed_bps": 5.014,
+      "samples": 12,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "jump",
+      "started_at_utc": "2026-03-22T03:35:20.996243+00:00",
+      "duration_sec": 0.609,
+      "start_pose": {
+        "x": 4882.639,
+        "y": 152.0,
+        "z": 16801.214,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4883.09,
+        "y": 152.495,
+        "z": 16800.768,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.502
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "descending",
+        "vertical_speed_bps": -5.922,
+        "horizontal_speed_bps": 0.333
+      },
+      "delta": {
+        "x": 0.451,
+        "y": 0.495,
+        "z": -0.446,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.634,
+        "peak_delta_y": 1.252,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.618,
+      "max_horizontal_speed_bps": 1.196,
+      "samples": 6,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "crouch",
+      "started_at_utc": "2026-03-22T03:35:21.598336+00:00",
+      "duration_sec": 0.625,
+      "start_pose": {
+        "x": 4883.09,
+        "y": 152.495,
+        "z": 16800.768,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4883.127,
+        "y": 152.0,
+        "z": 16800.731,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "descending",
+        "vertical_speed_bps": -7.48,
+        "horizontal_speed_bps": 0.297
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.037,
+        "y": -0.495,
+        "z": -0.037,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.052,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": -0.495,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.07,
+      "max_horizontal_speed_bps": 0.264,
+      "samples": 7,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    },
+    {
+      "name": "toggle_fly_on",
+      "started_at_utc": "2026-03-22T03:35:22.233715+00:00",
+      "duration_sec": 0.812,
+      "start_pose": {
+        "x": 4883.127,
+        "y": 152.0,
+        "z": 16800.731,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4883.127,
+        "y": 152.0,
+        "z": 16800.731,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 7,
+      "mouse_backend": "win32",
+      "post_state_probe": {
+        "label": "toggle_fly_on_space_hold_probe",
+        "inferred_state": "grounded_non_flying",
+        "start_on_ground": false,
+        "end_on_ground": false,
+        "peak_delta_y": 1.252,
+        "trough_delta_y": 0.0,
+        "end_delta_y": 0.0,
+        "duration_sec": 1.078
+      },
+      "validation": {
+        "passed": false,
+        "reason": "expected fly mode to engage before flight segments, observed probe_state=grounded_non_flying peak_delta_y=1.25 end_delta_y=0.00"
+      }
+    },
+    {
+      "name": "fly_up",
+      "started_at_utc": "2026-03-22T03:35:24.271703+00:00",
+      "duration_sec": 1.61,
+      "start_pose": {
+        "x": 4883.127,
+        "y": 152.0,
+        "z": 16800.731,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4883.127,
+        "y": 153.249,
+        "z": 16800.731,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "ascending",
+        "vertical_speed_bps": 1.694,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.0,
+        "y": 1.249,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.0,
+        "peak_delta_y": 1.249,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.0,
+      "max_horizontal_speed_bps": 0.0,
+      "samples": 4,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight ascent, observed fly_enable_verified=False peak_delta_y=1.25 end_on_ground=False near_surface_end=False"
+      }
+    },
+    {
+      "name": "fly_forward",
+      "started_at_utc": "2026-03-22T03:35:24.644194+00:00",
+      "duration_sec": 1.531,
+      "start_pose": {
+        "x": 4883.127,
+        "y": 153.249,
+        "z": 16800.731,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4888.257,
+        "y": 152.0,
+        "z": 16800.757,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.061,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 3.927
+      },
+      "delta": {
+        "x": 5.13,
+        "y": -1.249,
+        "z": 0.026,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 5.13,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": -1.249,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 3.438,
+      "max_horizontal_speed_bps": 4.5,
+      "samples": 17,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=5.13 avg_horizontal_speed=3.44 max_horizontal_speed=4.50 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_sprint_forward",
+      "started_at_utc": "2026-03-22T03:35:26.185988+00:00",
+      "duration_sec": 1.5,
+      "start_pose": {
+        "x": 4888.257,
+        "y": 152.0,
+        "z": 16800.757,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4896.468,
+        "y": 152.0,
+        "z": 16800.798,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.8
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 5.714
+      },
+      "delta": {
+        "x": 8.211,
+        "y": 0.0,
+        "z": 0.041,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 8.211,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 5.441,
+      "max_horizontal_speed_bps": 6.512,
+      "samples": 17,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=8.21 avg_horizontal_speed=5.44 max_horizontal_speed=6.51 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_strafe_left",
+      "started_at_utc": "2026-03-22T03:35:27.678124+00:00",
+      "duration_sec": 1.219,
+      "start_pose": {
+        "x": 4896.468,
+        "y": 152.0,
+        "z": 16800.798,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4897.109,
+        "y": 152.0,
+        "z": 16796.312,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 5.714
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.057
+      },
+      "delta": {
+        "x": 0.641,
+        "y": 0.0,
+        "z": -4.486,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 4.532,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 4.124,
+      "max_horizontal_speed_bps": 4.909,
+      "samples": 14,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=4.53 avg_horizontal_speed=4.12 max_horizontal_speed=4.91 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_strafe_right",
+      "started_at_utc": "2026-03-22T03:35:28.915303+00:00",
+      "duration_sec": 1.25,
+      "start_pose": {
+        "x": 4897.109,
+        "y": 152.0,
+        "z": 16796.312,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4897.09,
+        "y": 152.0,
+        "z": 16800.11,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.154
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.32
+      },
+      "delta": {
+        "x": -0.019,
+        "y": 0.0,
+        "z": 3.798,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.798,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 3.925,
+      "max_horizontal_speed_bps": 4.575,
+      "samples": 14,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=3.80 avg_horizontal_speed=3.92 max_horizontal_speed=4.58 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_diag_forward_right",
+      "started_at_utc": "2026-03-22T03:35:30.150383+00:00",
+      "duration_sec": 1.437,
+      "start_pose": {
+        "x": 4897.09,
+        "y": 152.0,
+        "z": 16800.11,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4901.084,
+        "y": 152.0,
+        "z": 16804.839,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 3.857
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.694
+      },
+      "delta": {
+        "x": 3.994,
+        "y": 0.0,
+        "z": 4.729,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 6.19,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 4.259,
+      "max_horizontal_speed_bps": 4.998,
+      "samples": 14,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=6.19 avg_horizontal_speed=4.26 max_horizontal_speed=5.00 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_diag_forward_left",
+      "started_at_utc": "2026-03-22T03:35:31.583545+00:00",
+      "duration_sec": 1.407,
+      "start_pose": {
+        "x": 4901.084,
+        "y": 152.0,
+        "z": 16804.839,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4905.151,
+        "y": 152.0,
+        "z": 16801.496,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.149
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.694
+      },
+      "delta": {
+        "x": 4.067,
+        "y": 0.0,
+        "z": -3.343,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 5.265,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 4.184,
+      "max_horizontal_speed_bps": 4.765,
+      "samples": 15,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=5.26 avg_horizontal_speed=4.18 max_horizontal_speed=4.76 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_up_forward",
+      "started_at_utc": "2026-03-22T03:35:32.990240+00:00",
+      "duration_sec": 1.203,
+      "start_pose": {
+        "x": 4905.151,
+        "y": 152.0,
+        "z": 16801.496,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4908.88,
+        "y": 152.797,
+        "z": 16800.851,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 4.596
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "descending",
+        "vertical_speed_bps": -4.633,
+        "horizontal_speed_bps": 3.817
+      },
+      "delta": {
+        "x": 3.729,
+        "y": 0.797,
+        "z": -0.645,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 3.784,
+        "peak_delta_y": 1.252,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 3.026,
+      "max_horizontal_speed_bps": 3.932,
+      "samples": 12,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight movement, observed fly_enable_verified=False horizontal_distance=3.78 avg_horizontal_speed=3.03 max_horizontal_speed=3.93 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_down",
+      "started_at_utc": "2026-03-22T03:35:34.188796+00:00",
+      "duration_sec": 1.625,
+      "start_pose": {
+        "x": 4908.88,
+        "y": 152.797,
+        "z": 16800.851,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4909.783,
+        "y": 152.0,
+        "z": 16800.846,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "descending",
+        "vertical_speed_bps": -6.292,
+        "horizontal_speed_bps": 3.958
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.903,
+        "y": -0.797,
+        "z": -0.005,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.903,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": -0.797,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.438,
+      "max_horizontal_speed_bps": 3.84,
+      "samples": 19,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight downward movement or landing, observed fly_enable_verified=False trough_delta_y=-0.80 end_on_ground=False"
+      }
+    },
+    {
+      "name": "fly_down_forward",
+      "started_at_utc": "2026-03-22T03:35:35.828527+00:00",
+      "duration_sec": 1.047,
+      "start_pose": {
+        "x": 4909.783,
+        "y": 152.0,
+        "z": 16800.846,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4911.022,
+        "y": 152.0,
+        "z": 16800.852,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 1.354
+      },
+      "delta": {
+        "x": 1.239,
+        "y": 0.0,
+        "z": 0.006,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 1.239,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 1.218,
+      "max_horizontal_speed_bps": 1.596,
+      "samples": 10,
+      "mouse_backend": "win32",
+      "validation": {
+        "passed": false,
+        "reason": "expected confirmed-flight descending forward motion, observed fly_enable_verified=False trough_delta_y=0.00 horizontal_distance=1.24"
+      }
+    },
+    {
+      "name": "toggle_fly_off",
+      "started_at_utc": "2026-03-22T03:35:36.866402+00:00",
+      "duration_sec": 0.843,
+      "start_pose": {
+        "x": 4911.022,
+        "y": 152.0,
+        "z": 16800.852,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "end_pose": {
+        "x": 4911.225,
+        "y": 152.0,
+        "z": 16800.853,
+        "yaw": -89.714,
+        "pitch": -0.343
+      },
+      "start_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 1.208
+      },
+      "end_state": {
+        "on_ground": false,
+        "is_sprinting": false,
+        "inferred_motion_state": "hovering_or_flying",
+        "vertical_speed_bps": 0.0,
+        "horizontal_speed_bps": 0.0
+      },
+      "delta": {
+        "x": 0.203,
+        "y": 0.0,
+        "z": 0.001,
+        "yaw": 0.0,
+        "pitch": 0.0,
+        "horizontal_distance": 0.203,
+        "peak_delta_y": 0.0,
+        "trough_delta_y": 0.0,
+        "pitch_range": 0.0
+      },
+      "avg_horizontal_speed_bps": 0.02,
+      "max_horizontal_speed_bps": 0.122,
+      "samples": 6,
+      "mouse_backend": "win32",
+      "post_state_probe": {
+        "label": "toggle_fly_off_space_hold_probe",
+        "inferred_state": "grounded_non_flying",
+        "start_on_ground": false,
+        "end_on_ground": false,
+        "peak_delta_y": 1.252,
+        "trough_delta_y": 0.0,
+        "end_delta_y": 0.0,
+        "duration_sec": 1.062
+      },
+      "validation": {
+        "passed": true,
+        "reason": "ok"
+      }
+    }
+  ],
+  "scout_report_path": "E:\\Minecraft_auto_miner\\data\\perimeter_scout_last_run.json"
+}

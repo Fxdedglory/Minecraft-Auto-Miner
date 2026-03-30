@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "reason": "manual_toggle_off",
+  "started_at_utc": "2026-03-22T03:16:11.502442+00:00",
+  "stopped_at_utc": "2026-03-22T03:16:15.033766+00:00",
+  "duration_sec": 3.531,
+  "sample_count": 37,
+  "sample_interval_sec": 0.05,
+  "session_path": "E:\\Minecraft_auto_miner\\data\\manual_training\\manual_session_20260322T031611.501941Z.jsonl"
+}

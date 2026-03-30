@@ -1,0 +1,569 @@
+{
+  "version": "1.0",
+  "regions": {
+    "prison_mine_east_lane": {
+      "updated_at_utc": "2026-03-23T14:57:48.490414+00:00",
+      "successful_runs": 3,
+      "region_name": "prison_mine_east_lane",
+      "configured_region": {
+        "name": "prison_mine_east_lane",
+        "dimension": "minecraft:overworld",
+        "min": {
+          "x": 4873,
+          "y": 4,
+          "z": 16774
+        },
+        "max": {
+          "x": 4924,
+          "y": 152,
+          "z": 16826
+        }
+      },
+      "ground_surface_y": 152.0,
+      "mouse_backend_counts": {
+        "win32": 3
+      },
+      "segment_averages": {
+        "idle_baseline": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "look_right": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": 3.663,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "look_left": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": -3.663,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "look_down": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 1.832,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "look_up": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": -1.832,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "forward": {
+          "samples": 3,
+          "avg_horizontal_distance": 7.007667,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.042,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 3.996667
+        },
+        "sprint_forward": {
+          "samples": 3,
+          "avg_horizontal_distance": 9.894667,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": -0.021,
+          "avg_horizontal_speed_bps": 5.456
+        },
+        "backward": {
+          "samples": 3,
+          "avg_horizontal_distance": 3.662333,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 4.033667
+        },
+        "strafe_left": {
+          "samples": 3,
+          "avg_horizontal_distance": 4.371,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 3.959333
+        },
+        "strafe_right": {
+          "samples": 3,
+          "avg_horizontal_distance": 3.797667,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 3.886667
+        },
+        "diag_forward_right": {
+          "samples": 3,
+          "avg_horizontal_distance": 5.038667,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 4.175
+        },
+        "diag_forward_left": {
+          "samples": 3,
+          "avg_horizontal_distance": 4.253333,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 4.098333
+        },
+        "jump": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.78,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 1.25,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.598
+        },
+        "crouch": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.053333,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": -0.471,
+          "avg_horizontal_speed_bps": 0.060667
+        },
+        "toggle_fly_on": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.581,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "fly_up": {
+          "samples": 3,
+          "avg_horizontal_distance": 0.0,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 3.522,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 0.0
+        },
+        "fly_forward": {
+          "samples": 3,
+          "avg_horizontal_distance": 6.875333,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.435667,
+          "avg_trough_delta_y": -0.834667,
+          "avg_horizontal_speed_bps": 4.689
+        },
+        "fly_sprint_forward": {
+          "samples": 3,
+          "avg_horizontal_distance": 14.034667,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 9.020333
+        },
+        "fly_strafe_left": {
+          "samples": 3,
+          "avg_horizontal_distance": 7.233333,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 6.647333
+        },
+        "fly_strafe_right": {
+          "samples": 3,
+          "avg_horizontal_distance": 3.329,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 4.266333
+        },
+        "fly_diag_forward_right": {
+          "samples": 3,
+          "avg_horizontal_distance": 8.422,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 6.021333
+        },
+        "fly_diag_forward_left": {
+          "samples": 3,
+          "avg_horizontal_distance": 7.056,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 5.571
+        },
+        "fly_up_forward": {
+          "samples": 3,
+          "avg_horizontal_distance": 6.347333,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 3.147,
+          "avg_trough_delta_y": 0.0,
+          "avg_horizontal_speed_bps": 5.499667
+        },
+        "fly_down": {
+          "samples": 3,
+          "avg_horizontal_distance": 2.584,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.325,
+          "avg_trough_delta_y": -3.555667,
+          "avg_horizontal_speed_bps": 1.392667
+        },
+        "fly_down_forward": {
+          "samples": 3,
+          "avg_horizontal_distance": 2.666667,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": -2.25,
+          "avg_horizontal_speed_bps": 2.589
+        },
+        "toggle_fly_off": {
+          "samples": 3,
+          "avg_horizontal_distance": 1.396,
+          "avg_delta_yaw": 0.0,
+          "avg_delta_pitch": 0.0,
+          "avg_peak_delta_y": 0.0,
+          "avg_trough_delta_y": -0.516333,
+          "avg_horizontal_speed_bps": 1.057
+        }
+      },
+      "last_success_report_path": "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260323T145714.089143Z.summary.json",
+      "last_success_profile": {
+        "version": "1.0",
+        "generated_at_utc": "2026-03-23T14:57:48.479226+00:00",
+        "preferred_mouse_backend": "win32",
+        "strict_mouse_calibration": {
+          "preferred_mouse_backend": "win32",
+          "yaw_step_right_deg": 0.171,
+          "yaw_step_left_deg": -0.172,
+          "yaw_step_pixels": 3,
+          "yaw_deg_per_pixel": 0.057167,
+          "horizontal_calibration_ready": true
+        },
+        "expected_start_state": "grounded_non_flying",
+        "preflight_validation": {
+          "expected_start_state": "grounded_non_flying",
+          "initial_pose": {
+            "x": 4863.5,
+            "y": 152.0,
+            "z": 16800.5,
+            "yaw": -90.0,
+            "pitch": 0.0,
+            "on_ground": false,
+            "is_sprinting": false,
+            "dimension": "",
+            "ts_utc": "2026-03-23T14:57:14.095Z",
+            "heading": "EAST"
+          },
+          "initial_pose_state": {
+            "on_ground": false,
+            "is_sprinting": false,
+            "inferred_motion_state": "hovering_or_flying",
+            "vertical_speed_bps": 0.0,
+            "horizontal_speed_bps": 0.0
+          },
+          "initial_heading": "EAST",
+          "surface_y_hint": 152.0,
+          "normalization_actions": [],
+          "probes": [
+            {
+              "label": "preflight_space_hold_probe_1",
+              "inferred_state": "grounded_non_flying",
+              "start_on_ground": false,
+              "end_on_ground": false,
+              "peak_delta_y": 1.252,
+              "trough_delta_y": 0.0,
+              "end_delta_y": 0.0,
+              "duration_sec": 1.078
+            }
+          ],
+          "proceed": true,
+          "ready_for_profile": true,
+          "ground_contact_normalized": true,
+          "final_probe": {
+            "label": "preflight_space_hold_probe_1",
+            "inferred_state": "grounded_non_flying",
+            "start_on_ground": false,
+            "end_on_ground": false,
+            "peak_delta_y": 1.252,
+            "trough_delta_y": 0.0,
+            "end_delta_y": 0.0,
+            "duration_sec": 1.078
+          },
+          "normalized_pose": {
+            "x": 4863.5,
+            "y": 152.0,
+            "z": 16800.5,
+            "yaw": -90.057,
+            "pitch": 0.0,
+            "on_ground": false,
+            "is_sprinting": false,
+            "dimension": "",
+            "ts_utc": "2026-03-23T14:57:16.345Z",
+            "heading": "EAST"
+          },
+          "normalized_pose_state": {
+            "on_ground": false,
+            "is_sprinting": false,
+            "inferred_motion_state": "hovering_or_flying",
+            "vertical_speed_bps": 0.0,
+            "horizontal_speed_bps": 0.0
+          },
+          "normalized_heading": "EAST",
+          "baseline_yaw": -90.057,
+          "baseline_pitch": 0.0,
+          "effective_surface_contact": true,
+          "passed": true,
+          "reason": "Calibration preflight normalized to a grounded non-flying baseline before starting the scripted test."
+        },
+        "validation": {
+          "passed": true,
+          "segment_validation_passed": true,
+          "preflight_ready_for_profile": true,
+          "failure_count": 0,
+          "failures": []
+        },
+        "movement_metrics": {
+          "idle_baseline": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          },
+          "forward": {
+            "horizontal_distance": 6.864,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 3.931,
+            "max_horizontal_speed_bps": 4.8
+          },
+          "sprint_forward": {
+            "horizontal_distance": 9.895,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 5.452,
+            "max_horizontal_speed_bps": 6.244
+          },
+          "backward": {
+            "horizontal_distance": 3.591,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 4.051,
+            "max_horizontal_speed_bps": 4.8
+          },
+          "strafe_left": {
+            "horizontal_distance": 4.085,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 3.778,
+            "max_horizontal_speed_bps": 4.511
+          },
+          "strafe_right": {
+            "horizontal_distance": 3.798,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 3.808,
+            "max_horizontal_speed_bps": 4.5
+          },
+          "diag_forward_right": {
+            "horizontal_distance": 4.929,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 4.176,
+            "max_horizontal_speed_bps": 5.102
+          },
+          "diag_forward_left": {
+            "horizontal_distance": 4.606,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 4.244,
+            "max_horizontal_speed_bps": 4.781
+          },
+          "jump": {
+            "horizontal_distance": 0.854,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.647,
+            "max_horizontal_speed_bps": 1.301
+          },
+          "crouch": {
+            "horizontal_distance": 0.053,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.061,
+            "max_horizontal_speed_bps": 0.277
+          },
+          "toggle_fly_on": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          },
+          "fly_up": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          },
+          "fly_forward": {
+            "horizontal_distance": 10.132,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 6.915,
+            "max_horizontal_speed_bps": 10.306
+          },
+          "fly_sprint_forward": {
+            "horizontal_distance": 25.617,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 16.273,
+            "max_horizontal_speed_bps": 21.733
+          },
+          "fly_strafe_left": {
+            "horizontal_distance": 12.637,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 11.678,
+            "max_horizontal_speed_bps": 19.02
+          },
+          "fly_strafe_right": {
+            "horizontal_distance": 2.175,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 5.01,
+            "max_horizontal_speed_bps": 8.636
+          },
+          "fly_diag_forward_right": {
+            "horizontal_distance": 13.323,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 9.554,
+            "max_horizontal_speed_bps": 11.601
+          },
+          "fly_diag_forward_left": {
+            "horizontal_distance": 10.201,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 8.458,
+            "max_horizontal_speed_bps": 10.936
+          },
+          "fly_up_forward": {
+            "horizontal_distance": 11.462,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 9.838,
+            "max_horizontal_speed_bps": 11.003
+          },
+          "fly_down": {
+            "horizontal_distance": 6.079,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 3.464,
+            "max_horizontal_speed_bps": 9.736
+          },
+          "fly_down_forward": {
+            "horizontal_distance": 5.522,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 5.405,
+            "max_horizontal_speed_bps": 8.959
+          },
+          "toggle_fly_off": {
+            "horizontal_distance": 3.846,
+            "delta_yaw": 0.0,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 3.14,
+            "max_horizontal_speed_bps": 6.49
+          }
+        },
+        "look_metrics": {
+          "look_right": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": 3.663,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          },
+          "look_left": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": -3.663,
+            "delta_pitch": 0.0,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          },
+          "look_down": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": 0.0,
+            "delta_pitch": 1.832,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          },
+          "look_up": {
+            "horizontal_distance": 0.0,
+            "delta_yaw": 0.0,
+            "delta_pitch": -1.832,
+            "avg_horizontal_speed_bps": 0.0,
+            "max_horizontal_speed_bps": 0.0
+          }
+        },
+        "last_run_report_path": "E:\\Minecraft_auto_miner\\data\\control_calibration\\control_calibration_20260323T145714.089143Z.summary.json",
+        "last_run_status": "complete",
+        "notes": [
+          "This is a timed control calibration profile intended to bootstrap mine mode with known-good control behavior.",
+          "Profiles are reused only when the scripted segment validation passes and preflight successfully normalizes to the expected grounded non-flying baseline.",
+          "The profile captures empirical look and movement responses but does not yet replace higher-level mining strategy learning."
+        ]
+      },
+      "last_success_report_summary": {
+        "started_at_utc": "2026-03-23T14:57:14.160974+00:00",
+        "duration_sec": 34.312,
+        "preflight_duration_sec": 2.265,
+        "scripted_duration_sec": 32.047,
+        "sample_count": 325,
+        "strict_mouse_calibration": {
+          "preferred_mouse_backend": "win32",
+          "yaw_step_right_deg": 0.171,
+          "yaw_step_left_deg": -0.172,
+          "yaw_step_pixels": 3,
+          "yaw_deg_per_pixel": 0.057167,
+          "horizontal_calibration_ready": true
+        }
+      }
+    }
+  }
+}

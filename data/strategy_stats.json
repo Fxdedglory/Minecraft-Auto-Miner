@@ -1,0 +1,3220 @@
+{
+  "version": "2.0",
+  "patterns": {
+    "flight_tunnel_burst": {
+      "attempts": 54,
+      "flight_success": 46,
+      "best_horizontal_speed_bps": 27.947,
+      "best_horizontal_distance": 50.126,
+      "avg_duration_sec": 7.313,
+      "updated_at_utc": "2026-03-26T11:35:31.767340+00:00",
+      "failed_enable_or_blocked": 6,
+      "avg_score": 20.621,
+      "best_score": 66.931,
+      "ceiling_constrained_ground_burst": 2
+    }
+  },
+  "episodes": [
+    {
+      "started_at_utc": "2026-03-23T19:00:23.976297+00:00",
+      "updated_at_utc": "2026-03-23T19:00:41.088478+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 3,
+          "flight_success": 2,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:00:30.504258+00:00",
+        "finished_at_utc": "2026-03-23T19:00:41.088478+00:00",
+        "duration_sec": 10.578,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4881.436,
+          "y": 147.0,
+          "z": 16800.5
+        },
+        "end_pose": {
+          "x": 4923.604,
+          "y": 128.922,
+          "z": 16800.5,
+          "yaw": -90.0,
+          "pitch": 30.683,
+          "ts_utc": "2026-03-23T19:00:40.946Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 42.168,
+        "max_horizontal_speed_bps": 7.0,
+        "max_abs_vertical_speed_bps": 7.54,
+        "max_delta_y": 0.2,
+        "min_delta_y": -18.078,
+        "retries": 0,
+        "sample_count": 121,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:00:23.976297+00:00",
+      "updated_at_utc": "2026-03-23T19:00:47.900408+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 3,
+          "flight_success": 2,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:00:44.923039+00:00",
+        "finished_at_utc": "2026-03-23T19:00:47.900408+00:00",
+        "duration_sec": 2.969,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4922.875,
+          "y": 130.2,
+          "z": 16800.7
+        },
+        "end_pose": {
+          "x": 4914.887,
+          "y": 130.2,
+          "z": 16802.548,
+          "yaw": 79.903,
+          "pitch": 25.131,
+          "ts_utc": "2026-03-23T19:00:47.847Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16801.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 8.199,
+        "max_horizontal_speed_bps": 12.85,
+        "max_abs_vertical_speed_bps": 6.609,
+        "max_delta_y": 0.0,
+        "min_delta_y": -1.2,
+        "retries": 1,
+        "sample_count": 45,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:00:23.976297+00:00",
+      "updated_at_utc": "2026-03-23T19:01:12.686758+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 3,
+          "flight_success": 2,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:01:11.893484+00:00",
+        "finished_at_utc": "2026-03-23T19:01:12.686758+00:00",
+        "duration_sec": 0.781,
+        "reason": "strict_ground_forward",
+        "outcome": "failed_enable_or_blocked",
+        "start_pose": {
+          "x": 4873.796,
+          "y": 126.0,
+          "z": 16803.319
+        },
+        "end_pose": {
+          "x": 4875.706,
+          "y": 126.0,
+          "z": 16803.687,
+          "yaw": -79.066,
+          "pitch": 43.564,
+          "ts_utc": "2026-03-23T19:01:12.496Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16802.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 1.945,
+        "max_horizontal_speed_bps": 4.053,
+        "max_abs_vertical_speed_bps": 3.367,
+        "max_delta_y": 1.2,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 7,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:47:58.612167+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:47:44.498365+00:00",
+        "finished_at_utc": "2026-03-23T19:47:58.612167+00:00",
+        "duration_sec": 14.125,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4879.958,
+          "y": 148.0,
+          "z": 16800.5
+        },
+        "end_pose": {
+          "x": 4923.7,
+          "y": 148.2,
+          "z": 16800.456,
+          "yaw": -153.771,
+          "pitch": 39.614,
+          "ts_utc": "2026-03-23T19:47:58.500Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 43.742,
+        "max_horizontal_speed_bps": 13.543,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.2,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 97,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:48:03.650656+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:48:03.480376+00:00",
+        "finished_at_utc": "2026-03-23T19:48:03.650656+00:00",
+        "duration_sec": 0.172,
+        "reason": "strict_ground_forward",
+        "outcome": "failed_enable_or_blocked",
+        "start_pose": {
+          "x": 4922.971,
+          "y": 148.2,
+          "z": 16800.7
+        },
+        "end_pose": {
+          "x": 4921.358,
+          "y": 147.432,
+          "z": 16800.485,
+          "yaw": 94.716,
+          "pitch": 45.624,
+          "ts_utc": "2026-03-23T19:48:03.602Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16801.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 1.627,
+        "max_horizontal_speed_bps": 2.09,
+        "max_abs_vertical_speed_bps": 5.736,
+        "max_delta_y": 0.0,
+        "min_delta_y": -0.768,
+        "retries": 0,
+        "sample_count": 1,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:48:56.945678+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:48:41.160903+00:00",
+        "finished_at_utc": "2026-03-23T19:48:56.945678+00:00",
+        "duration_sec": 15.781,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.786,
+          "y": 128.0,
+          "z": 16799.7
+        },
+        "end_pose": {
+          "x": 4923.36,
+          "y": 111.0,
+          "z": 16799.7,
+          "yaw": -85.206,
+          "pitch": 21.467,
+          "ts_utc": "2026-03-23T19:48:56.899Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16799.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 49.574,
+        "max_horizontal_speed_bps": 6.521,
+        "max_abs_vertical_speed_bps": 7.854,
+        "max_delta_y": 1.2,
+        "min_delta_y": -17.0,
+        "retries": 0,
+        "sample_count": 173,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:49:02.205058+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:49:01.578218+00:00",
+        "finished_at_utc": "2026-03-23T19:49:02.205058+00:00",
+        "duration_sec": 0.64,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4923.3,
+          "y": 110.0,
+          "z": 16799.318
+        },
+        "end_pose": {
+          "x": 4918.443,
+          "y": 111.743,
+          "z": 16799.7,
+          "yaw": 85.843,
+          "pitch": 21.467,
+          "ts_utc": "2026-03-23T19:49:02.145Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16798.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 4.872,
+        "max_horizontal_speed_bps": 14.327,
+        "max_abs_vertical_speed_bps": 1.564,
+        "max_delta_y": 1.743,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 10,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:50:07.481134+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:49:35.134623+00:00",
+        "finished_at_utc": "2026-03-23T19:50:07.481134+00:00",
+        "duration_sec": 32.344,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4874.77,
+          "y": 96.0,
+          "z": 16800.493
+        },
+        "end_pose": {
+          "x": 4923.7,
+          "y": 96.743,
+          "z": 16800.7,
+          "yaw": -26.129,
+          "pitch": 37.61,
+          "ts_utc": "2026-03-23T19:50:07.296Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 48.93,
+        "max_horizontal_speed_bps": 14.178,
+        "max_abs_vertical_speed_bps": 1.686,
+        "max_delta_y": 0.743,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 248,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:50:26.417772+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:50:12.293327+00:00",
+        "finished_at_utc": "2026-03-23T19:50:26.417772+00:00",
+        "duration_sec": 14.125,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4923.608,
+          "y": 94.0,
+          "z": 16800.7
+        },
+        "end_pose": {
+          "x": 4883.261,
+          "y": 84.922,
+          "z": 16802.558,
+          "yaw": 85.728,
+          "pitch": 20.265,
+          "ts_utc": "2026-03-23T19:50:26.344Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16801.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 40.39,
+        "max_horizontal_speed_bps": 6.26,
+        "max_abs_vertical_speed_bps": 8.66,
+        "max_delta_y": 1.252,
+        "min_delta_y": -9.078,
+        "retries": 0,
+        "sample_count": 150,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:50:50.855542+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:50:41.733630+00:00",
+        "finished_at_utc": "2026-03-23T19:50:50.855542+00:00",
+        "duration_sec": 9.125,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.848,
+          "y": 83.0,
+          "z": 16802.7
+        },
+        "end_pose": {
+          "x": 4923.585,
+          "y": 83.113,
+          "z": 16802.7,
+          "yaw": -85.721,
+          "pitch": 37.496,
+          "ts_utc": "2026-03-23T19:50:50.748Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16802.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 49.737,
+        "max_horizontal_speed_bps": 17.766,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.113,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 111,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:51:06.803389+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:50:55.230627+00:00",
+        "finished_at_utc": "2026-03-23T19:51:06.803389+00:00",
+        "duration_sec": 11.578,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4923.156,
+          "y": 83.0,
+          "z": 16802.7
+        },
+        "end_pose": {
+          "x": 4873.3,
+          "y": 83.113,
+          "z": 16802.744,
+          "yaw": 24.934,
+          "pitch": 35.893,
+          "ts_utc": "2026-03-23T19:51:06.596Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16803.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 49.856,
+        "max_horizontal_speed_bps": 22.543,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.113,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 47,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:51:23.094070+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:51:11.675474+00:00",
+        "finished_at_utc": "2026-03-23T19:51:23.094070+00:00",
+        "duration_sec": 11.422,
+        "reason": "strict_transition_lane_end",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.697,
+          "y": 82.0,
+          "z": 16803.7
+        },
+        "end_pose": {
+          "x": 4923.7,
+          "y": 82.113,
+          "z": 16803.7,
+          "yaw": -43.989,
+          "pitch": 36.522,
+          "ts_utc": "2026-03-23T19:51:22.894Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16804.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 50.003,
+        "max_horizontal_speed_bps": 23.909,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.113,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 55,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:51:45.307594+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:51:35.744620+00:00",
+        "finished_at_utc": "2026-03-23T19:51:45.307594+00:00",
+        "duration_sec": 9.562,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4905.338,
+          "y": 74.922,
+          "z": 16804.557
+        },
+        "end_pose": {
+          "x": 4878.227,
+          "y": 65.0,
+          "z": 16806.659,
+          "yaw": 85.442,
+          "pitch": 42.132,
+          "ts_utc": "2026-03-23T19:51:45.095Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16805.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 27.192,
+        "max_horizontal_speed_bps": 6.266,
+        "max_abs_vertical_speed_bps": 7.694,
+        "max_delta_y": 0.244,
+        "min_delta_y": -9.922,
+        "retries": 0,
+        "sample_count": 118,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:52:04.111893+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:51:58.365888+00:00",
+        "finished_at_utc": "2026-03-23T19:52:04.111893+00:00",
+        "duration_sec": 5.75,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.792,
+          "y": 63.0,
+          "z": 16806.7
+        },
+        "end_pose": {
+          "x": 4890.448,
+          "y": 64.743,
+          "z": 16807.576,
+          "yaw": -86.58,
+          "pitch": 24.215,
+          "ts_utc": "2026-03-23T19:52:04.046Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16806.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 16.679,
+        "max_horizontal_speed_bps": 13.723,
+        "max_abs_vertical_speed_bps": 1.02,
+        "max_delta_y": 1.743,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 61,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T19:47:38.779934+00:00",
+      "updated_at_utc": "2026-03-23T19:52:18.032456+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "flight_success": 11,
+          "latest_reason": "strict_ground_forward",
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T19:52:16.496037+00:00",
+        "finished_at_utc": "2026-03-23T19:52:18.031946+00:00",
+        "duration_sec": 1.547,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4921.675,
+          "y": 65.111,
+          "z": 16807.592
+        },
+        "end_pose": {
+          "x": 4911.3,
+          "y": 65.2,
+          "z": 16808.7,
+          "yaw": 85.728,
+          "pitch": 21.581,
+          "ts_utc": "2026-03-23T19:52:17.994Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16807.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 10.434,
+        "max_horizontal_speed_bps": 16.016,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.089,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 27,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T20:10:27.834960+00:00",
+      "updated_at_utc": "2026-03-23T20:10:33.105791+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "failed_enable_or_blocked": 1,
+          "latest_reason": "strict_ground_forward",
+          "flight_success": 5
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T20:10:32.999990+00:00",
+        "finished_at_utc": "2026-03-23T20:10:33.105791+00:00",
+        "duration_sec": 0.109,
+        "reason": "strict_ground_forward",
+        "outcome": "failed_enable_or_blocked",
+        "start_pose": {
+          "x": 4878.327,
+          "y": 149.0,
+          "z": 16800.5
+        },
+        "end_pose": {
+          "x": 4879.37,
+          "y": 149.166,
+          "z": 16800.5,
+          "yaw": -90.0,
+          "pitch": 50.834,
+          "ts_utc": "2026-03-23T20:10:33.047Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 1.043,
+        "max_horizontal_speed_bps": 0.588,
+        "max_abs_vertical_speed_bps": 3.235,
+        "max_delta_y": 0.166,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 1,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T20:10:27.834960+00:00",
+      "updated_at_utc": "2026-03-23T20:10:39.226466+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "failed_enable_or_blocked": 1,
+          "latest_reason": "strict_ground_forward",
+          "flight_success": 5
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T20:10:33.826314+00:00",
+        "finished_at_utc": "2026-03-23T20:10:39.226466+00:00",
+        "duration_sec": 5.406,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4880.74,
+          "y": 147.0,
+          "z": 16800.5
+        },
+        "end_pose": {
+          "x": 4923.476,
+          "y": 147.113,
+          "z": 16800.5,
+          "yaw": -90.0,
+          "pitch": 50.834,
+          "ts_utc": "2026-03-23T20:10:39.147Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 42.736,
+        "max_horizontal_speed_bps": 14.159,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.113,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 98,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T20:10:27.834960+00:00",
+      "updated_at_utc": "2026-03-23T20:10:47.171297+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "failed_enable_or_blocked": 1,
+          "latest_reason": "strict_ground_forward",
+          "flight_success": 5
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T20:10:43.647820+00:00",
+        "finished_at_utc": "2026-03-23T20:10:47.171297+00:00",
+        "duration_sec": 3.516,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4922.219,
+          "y": 147.2,
+          "z": 16800.7
+        },
+        "end_pose": {
+          "x": 4873.3,
+          "y": 147.2,
+          "z": 16800.7,
+          "yaw": 85.857,
+          "pitch": 50.834,
+          "ts_utc": "2026-03-23T20:10:47.147Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16801.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 48.919,
+        "max_horizontal_speed_bps": 27.947,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.0,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 56,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T20:10:27.834960+00:00",
+      "updated_at_utc": "2026-03-23T20:11:22.171772+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "failed_enable_or_blocked": 1,
+          "latest_reason": "strict_ground_forward",
+          "flight_success": 5
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T20:11:14.976183+00:00",
+        "finished_at_utc": "2026-03-23T20:11:22.171772+00:00",
+        "duration_sec": 7.188,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4906.423,
+          "y": 147.2,
+          "z": 16800.7
+        },
+        "end_pose": {
+          "x": 4873.817,
+          "y": 134.536,
+          "z": 16800.7,
+          "yaw": 86.887,
+          "pitch": 21.181,
+          "ts_utc": "2026-03-23T20:11:22.145Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16800.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 32.606,
+        "max_horizontal_speed_bps": 6.34,
+        "max_abs_vertical_speed_bps": 8.479,
+        "max_delta_y": 0.0,
+        "min_delta_y": -12.664,
+        "retries": 0,
+        "sample_count": 79,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T20:10:27.834960+00:00",
+      "updated_at_utc": "2026-03-23T20:11:27.879696+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "failed_enable_or_blocked": 1,
+          "latest_reason": "strict_ground_forward",
+          "flight_success": 5
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T20:11:26.659795+00:00",
+        "finished_at_utc": "2026-03-23T20:11:27.879696+00:00",
+        "duration_sec": 1.218,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4874.7,
+          "y": 134.0,
+          "z": 16800.351
+        },
+        "end_pose": {
+          "x": 4877.982,
+          "y": 133.0,
+          "z": 16800.7,
+          "yaw": -85.878,
+          "pitch": 40.816,
+          "ts_utc": "2026-03-23T20:11:27.696Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16799.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 3.301,
+        "max_horizontal_speed_bps": 5.259,
+        "max_abs_vertical_speed_bps": 9.143,
+        "max_delta_y": 1.122,
+        "min_delta_y": -1.0,
+        "retries": 0,
+        "sample_count": 7,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T20:10:27.834960+00:00",
+      "updated_at_utc": "2026-03-23T20:12:10.146487+00:00",
+      "reset_count": 0,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "failed_enable_or_blocked": 1,
+          "latest_reason": "strict_ground_forward",
+          "flight_success": 5
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T20:12:07.079097+00:00",
+        "finished_at_utc": "2026-03-23T20:12:10.146487+00:00",
+        "duration_sec": 3.063,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4904.038,
+          "y": 135.2,
+          "z": 16800.3
+        },
+        "end_pose": {
+          "x": 4914.377,
+          "y": 132.0,
+          "z": 16799.456,
+          "yaw": -94.565,
+          "pitch": 22.612,
+          "ts_utc": "2026-03-23T20:12:10.001Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 10.373,
+        "max_horizontal_speed_bps": 6.371,
+        "max_abs_vertical_speed_bps": 9.942,
+        "max_delta_y": 0.0,
+        "min_delta_y": -3.2,
+        "retries": 0,
+        "sample_count": 39,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        }
+      }
+    },
+    {
+      "started_at_utc": "2026-03-23T21:10:36.005170+00:00",
+      "updated_at_utc": "2026-03-23T21:15:11.934573+00:00",
+      "reset_count": 1,
+      "score_total": 19.296,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 1,
+          "flight_success": 1,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 19.296,
+          "best_score": 19.296
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-23T21:15:11.334449+00:00",
+        "finished_at_utc": "2026-03-23T21:15:11.934573+00:00",
+        "duration_sec": 0.594,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4875.7,
+          "y": 31.0,
+          "z": 16813.68
+        },
+        "end_pose": {
+          "x": 4880.557,
+          "y": 32.743,
+          "z": 16813.3,
+          "yaw": -94.179,
+          "pitch": 23.986,
+          "ts_utc": "2026-03-23T21:15:11.895Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16814.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 4.872,
+        "max_horizontal_speed_bps": 14.04,
+        "max_abs_vertical_speed_bps": 1.755,
+        "max_delta_y": 1.743,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 10,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "flight_explore:attempts=21 failed=3 success_rate=0.86 avg_score=0.00 explore_rate=0.18",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 19.296
+      }
+    },
+    {
+      "started_at_utc": "2026-03-24T10:59:22.578882+00:00",
+      "updated_at_utc": "2026-03-24T11:00:15.353035+00:00",
+      "reset_count": 0,
+      "score_total": 43.839,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 5,
+          "flight_success": 5,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 46.948,
+          "best_score": 63.424
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-24T11:00:01.985109+00:00",
+        "finished_at_utc": "2026-03-24T11:00:15.353035+00:00",
+        "duration_sec": 13.359,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4882.656,
+          "y": 121.0,
+          "z": 16801.54
+        },
+        "end_pose": {
+          "x": 4920.513,
+          "y": 106.0,
+          "z": 16803.402,
+          "yaw": -85.764,
+          "pitch": 22.612,
+          "ts_utc": "2026-03-24T11:00:15.274Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16802.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 37.903,
+        "max_horizontal_speed_bps": 6.227,
+        "max_abs_vertical_speed_bps": 6.609,
+        "max_delta_y": 0.0,
+        "min_delta_y": -15.0,
+        "retries": 0,
+        "sample_count": 166,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "flight_explore:attempts=22 failed=3 success_rate=0.86 avg_score=0.88 explore_rate=0.18",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 43.839
+      }
+    },
+    {
+      "started_at_utc": "2026-03-24T10:59:22.578882+00:00",
+      "updated_at_utc": "2026-03-24T11:00:36.900253+00:00",
+      "reset_count": 0,
+      "score_total": 107.263,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 5,
+          "flight_success": 5,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 46.948,
+          "best_score": 63.424
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-24T11:00:27.313768+00:00",
+        "finished_at_utc": "2026-03-24T11:00:36.900253+00:00",
+        "duration_sec": 9.578,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.348,
+          "y": 106.2,
+          "z": 16803.7
+        },
+        "end_pose": {
+          "x": 4922.7,
+          "y": 106.2,
+          "z": 16804.7,
+          "yaw": -86.05,
+          "pitch": 21.925,
+          "ts_utc": "2026-03-24T11:00:36.871Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16804.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 49.362,
+        "max_horizontal_speed_bps": 17.565,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.0,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 131,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "mixed_flight:attempts=23 success_rate=0.87 avg_score=2.75 explore_rate=0.35",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 63.424
+      }
+    },
+    {
+      "started_at_utc": "2026-03-24T10:59:22.578882+00:00",
+      "updated_at_utc": "2026-03-24T11:00:58.185080+00:00",
+      "reset_count": 0,
+      "score_total": 150.133,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 5,
+          "flight_success": 5,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 46.948,
+          "best_score": 63.424
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-24T11:00:50.493875+00:00",
+        "finished_at_utc": "2026-03-24T11:00:58.185080+00:00",
+        "duration_sec": 7.687,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4887.443,
+          "y": 106.2,
+          "z": 16805.7
+        },
+        "end_pose": {
+          "x": 4922.36,
+          "y": 96.0,
+          "z": 16805.7,
+          "yaw": -85.993,
+          "pitch": 20.895,
+          "ts_utc": "2026-03-24T11:00:58.123Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16806.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 34.917,
+        "max_horizontal_speed_bps": 6.28,
+        "max_abs_vertical_speed_bps": 6.333,
+        "max_delta_y": 0.0,
+        "min_delta_y": -10.2,
+        "retries": 0,
+        "sample_count": 101,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "mixed_flight:attempts=24 success_rate=0.88 avg_score=5.27 explore_rate=0.35",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 42.87
+      }
+    },
+    {
+      "started_at_utc": "2026-03-24T10:59:22.578882+00:00",
+      "updated_at_utc": "2026-03-24T11:01:17.265679+00:00",
+      "reset_count": 0,
+      "score_total": 188.999,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 5,
+          "flight_success": 5,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 46.948,
+          "best_score": 63.424
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-24T11:01:10.539109+00:00",
+        "finished_at_utc": "2026-03-24T11:01:17.265679+00:00",
+        "duration_sec": 6.734,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4906.389,
+          "y": 87.232,
+          "z": 16806.7
+        },
+        "end_pose": {
+          "x": 4875.941,
+          "y": 77.536,
+          "z": 16806.7,
+          "yaw": 86.83,
+          "pitch": 20.895,
+          "ts_utc": "2026-03-24T11:01:17.223Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16807.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 30.448,
+        "max_horizontal_speed_bps": 6.5,
+        "max_abs_vertical_speed_bps": 6.204,
+        "max_delta_y": 0.0,
+        "min_delta_y": -9.696,
+        "retries": 0,
+        "sample_count": 96,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=25 success_rate=0.88 avg_score=6.78 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 38.866
+      }
+    },
+    {
+      "started_at_utc": "2026-03-24T10:59:22.578882+00:00",
+      "updated_at_utc": "2026-03-24T11:01:37.662524+00:00",
+      "reset_count": 0,
+      "score_total": 234.738,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 5,
+          "flight_success": 5,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 46.948,
+          "best_score": 63.424
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-24T11:01:23.845964+00:00",
+        "finished_at_utc": "2026-03-24T11:01:37.662524+00:00",
+        "duration_sec": 13.813,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4884.7,
+          "y": 78.2,
+          "z": 16807.7
+        },
+        "end_pose": {
+          "x": 4921.128,
+          "y": 76.743,
+          "z": 16807.7,
+          "yaw": -85.649,
+          "pitch": 23.585,
+          "ts_utc": "2026-03-24T11:01:37.625Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16808.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 36.428,
+        "max_horizontal_speed_bps": 14.617,
+        "max_abs_vertical_speed_bps": 9.942,
+        "max_delta_y": 0.0,
+        "min_delta_y": -3.2,
+        "retries": 1,
+        "sample_count": 154,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=26 success_rate=0.88 avg_score=8.01 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 45.739
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:19:38.868027+00:00",
+      "reset_count": 0,
+      "score_total": -4.326,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:19:38.813417+00:00",
+        "finished_at_utc": "2026-03-26T11:19:38.868027+00:00",
+        "duration_sec": 0.062,
+        "reason": "strict_ground_forward",
+        "outcome": "failed_enable_or_blocked",
+        "start_pose": {
+          "x": 4878.72,
+          "y": 148.766,
+          "z": 16800.5
+        },
+        "end_pose": {
+          "x": 4879.228,
+          "y": 149.001,
+          "z": 16800.5,
+          "yaw": -90.0,
+          "pitch": 47.628,
+          "ts_utc": "2026-03-26T11:19:38.817Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 0.508,
+        "max_horizontal_speed_bps": 0.277,
+        "max_abs_vertical_speed_bps": 5.277,
+        "max_delta_y": 0.235,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 1,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=27 success_rate=0.89 avg_score=9.41 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": -4.326
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:19:55.128693+00:00",
+      "reset_count": 0,
+      "score_total": 43.812,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:19:40.239225+00:00",
+        "finished_at_utc": "2026-03-26T11:19:55.128693+00:00",
+        "duration_sec": 14.891,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4882.202,
+          "y": 146.0,
+          "z": 16800.5
+        },
+        "end_pose": {
+          "x": 4921.7,
+          "y": 144.743,
+          "z": 16800.5,
+          "yaw": -90.0,
+          "pitch": 24.501,
+          "ts_utc": "2026-03-26T11:19:55.069Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 39.498,
+        "max_horizontal_speed_bps": 14.128,
+        "max_abs_vertical_speed_bps": 7.392,
+        "max_delta_y": 0.0,
+        "min_delta_y": -2.145,
+        "retries": 1,
+        "sample_count": 177,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=27 success_rate=0.89 avg_score=9.41 explore_rate=0.12",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 48.138
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:20:09.734413+00:00",
+      "reset_count": 0,
+      "score_total": 102.992,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:19:59.633098+00:00",
+        "finished_at_utc": "2026-03-26T11:20:09.734413+00:00",
+        "duration_sec": 10.093,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4920.797,
+          "y": 145.2,
+          "z": 16800.7
+        },
+        "end_pose": {
+          "x": 4876.415,
+          "y": 145.2,
+          "z": 16801.7,
+          "yaw": 85.456,
+          "pitch": 38.583,
+          "ts_utc": "2026-03-26T11:20:09.569Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16801.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 44.393,
+        "max_horizontal_speed_bps": 19.075,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.0,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 134,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=29 success_rate=0.86 avg_score=10.27 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 59.18
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:20:24.193943+00:00",
+      "reset_count": 0,
+      "score_total": 165.63,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:20:14.085195+00:00",
+        "finished_at_utc": "2026-03-26T11:20:24.193943+00:00",
+        "duration_sec": 10.109,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.641,
+          "y": 145.2,
+          "z": 16801.7
+        },
+        "end_pose": {
+          "x": 4920.586,
+          "y": 145.2,
+          "z": 16802.7,
+          "yaw": -86.737,
+          "pitch": 37.896,
+          "ts_utc": "2026-03-26T11:20:24.018Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16802.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 46.956,
+        "max_horizontal_speed_bps": 20.576,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.0,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 124,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=30 success_rate=0.87 avg_score=11.90 explore_rate=0.12",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 62.638
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:20:33.389130+00:00",
+      "reset_count": 0,
+      "score_total": 232.561,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:20:28.564972+00:00",
+        "finished_at_utc": "2026-03-26T11:20:33.389130+00:00",
+        "duration_sec": 4.828,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4923.426,
+          "y": 145.2,
+          "z": 16802.7
+        },
+        "end_pose": {
+          "x": 4873.3,
+          "y": 145.2,
+          "z": 16802.7,
+          "yaw": 85.857,
+          "pitch": 24.329,
+          "ts_utc": "2026-03-26T11:20:33.268Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16803.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 50.126,
+        "max_horizontal_speed_bps": 19.367,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.0,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 52,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=31 success_rate=0.87 avg_score=13.54 explore_rate=0.12",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 66.931
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:21:00.638772+00:00",
+      "reset_count": 0,
+      "score_total": 252.67,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:20:56.683037+00:00",
+        "finished_at_utc": "2026-03-26T11:21:00.638772+00:00",
+        "duration_sec": 3.953,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4921.879,
+          "y": 124.0,
+          "z": 16802.7
+        },
+        "end_pose": {
+          "x": 4910.866,
+          "y": 120.536,
+          "z": 16803.515,
+          "yaw": 85.685,
+          "pitch": 25.531,
+          "ts_utc": "2026-03-26T11:21:00.618Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16802.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 11.043,
+        "max_horizontal_speed_bps": 5.957,
+        "max_abs_vertical_speed_bps": 8.66,
+        "max_delta_y": 1.2,
+        "min_delta_y": -3.464,
+        "retries": 0,
+        "sample_count": 54,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=32 success_rate=0.88 avg_score=15.21 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 20.109
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:21:17.656279+00:00",
+      "reset_count": 0,
+      "score_total": 265.284,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:21:17.097844+00:00",
+        "finished_at_utc": "2026-03-26T11:21:17.656279+00:00",
+        "duration_sec": 0.562,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4875.844,
+          "y": 122.111,
+          "z": 16802.3
+        },
+        "end_pose": {
+          "x": 4878.977,
+          "y": 121.766,
+          "z": 16802.562,
+          "yaw": -86.05,
+          "pitch": 23.585,
+          "ts_utc": "2026-03-26T11:21:17.620Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16801.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 3.144,
+        "max_horizontal_speed_bps": 5.784,
+        "max_abs_vertical_speed_bps": 3.58,
+        "max_delta_y": 0.0,
+        "min_delta_y": -0.345,
+        "retries": 0,
+        "sample_count": 9,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=33 success_rate=0.88 avg_score=15.36 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 12.614
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:21:41.408587+00:00",
+      "reset_count": 0,
+      "score_total": 288.07,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:21:39.277581+00:00",
+        "finished_at_utc": "2026-03-26T11:21:41.408587+00:00",
+        "duration_sec": 2.125,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.348,
+          "y": 122.569,
+          "z": 16804.7
+        },
+        "end_pose": {
+          "x": 4881.7,
+          "y": 122.937,
+          "z": 16805.7,
+          "yaw": -85.95,
+          "pitch": 22.612,
+          "ts_utc": "2026-03-26T11:21:41.319Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16804.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 8.412,
+        "max_horizontal_speed_bps": 13.956,
+        "max_abs_vertical_speed_bps": 0.385,
+        "max_delta_y": 0.368,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 21,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=34 success_rate=0.88 avg_score=15.27 explore_rate=0.12",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 22.786
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:22:12.799272+00:00",
+      "reset_count": 0,
+      "score_total": 342.315,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:21:56.749886+00:00",
+        "finished_at_utc": "2026-03-26T11:22:12.798772+00:00",
+        "duration_sec": 16.047,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4920.886,
+          "y": 105.0,
+          "z": 16805.643
+        },
+        "end_pose": {
+          "x": 4876.3,
+          "y": 106.743,
+          "z": 16805.7,
+          "yaw": 85.385,
+          "pitch": 23.7,
+          "ts_utc": "2026-03-26T11:22:12.769Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16805.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 44.586,
+        "max_horizontal_speed_bps": 14.0,
+        "max_abs_vertical_speed_bps": 1.686,
+        "max_delta_y": 1.743,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 203,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=35 success_rate=0.89 avg_score=15.49 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 54.245
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:22:17.375873+00:00",
+      "reset_count": 0,
+      "score_total": 337.315,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:22:17.236674+00:00",
+        "finished_at_utc": "2026-03-26T11:22:17.375873+00:00",
+        "duration_sec": 0.141,
+        "reason": "mine_reset",
+        "outcome": "failed_enable_or_blocked",
+        "start_pose": {
+          "x": 4876.592,
+          "y": 106.0,
+          "z": 16805.7
+        },
+        "end_pose": {
+          "x": 4876.633,
+          "y": 152.0,
+          "z": 16805.725,
+          "yaw": -78.679,
+          "pitch": 23.7,
+          "ts_utc": "2026-03-26T11:22:17.322Z"
+        },
+        "final_look_block": "minecraft:air",
+        "target_lane_z": 16806.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 0.0,
+        "max_horizontal_speed_bps": 0.0,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 0.0,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 0,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=36 success_rate=0.89 avg_score=16.57 explore_rate=0.12"
+        },
+        "score": -5.0
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:22:26.856110+00:00",
+      "reset_count": 1,
+      "score_total": 361.919,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:22:21.087663+00:00",
+        "finished_at_utc": "2026-03-26T11:22:26.856110+00:00",
+        "duration_sec": 5.765,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4882.773,
+          "y": 147.855,
+          "z": 16806.686
+        },
+        "end_pose": {
+          "x": 4898.265,
+          "y": 139.0,
+          "z": 16807.605,
+          "yaw": -85.835,
+          "pitch": 21.41,
+          "ts_utc": "2026-03-26T11:22:26.767Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16806.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 15.519,
+        "max_horizontal_speed_bps": 7.047,
+        "max_abs_vertical_speed_bps": 6.08,
+        "max_delta_y": 0.0,
+        "min_delta_y": -8.855,
+        "retries": 0,
+        "sample_count": 74,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=37 success_rate=0.86 avg_score=15.98 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 24.604
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:19:33.659559+00:00",
+      "updated_at_utc": "2026-03-26T11:22:53.399617+00:00",
+      "reset_count": 1,
+      "score_total": 403.325,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 12,
+          "failed_enable_or_blocked": 2,
+          "latest_reason": "strict_transition_boundary_marker",
+          "avg_score": 33.61,
+          "best_score": 66.931,
+          "flight_success": 10
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:22:44.040610+00:00",
+        "finished_at_utc": "2026-03-26T11:22:53.399617+00:00",
+        "duration_sec": 9.359,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4910.146,
+          "y": 132.0,
+          "z": 16808.3
+        },
+        "end_pose": {
+          "x": 4876.16,
+          "y": 118.766,
+          "z": 16808.3,
+          "yaw": 93.957,
+          "pitch": 23.127,
+          "ts_utc": "2026-03-26T11:22:53.368Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16807.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 33.986,
+        "max_horizontal_speed_bps": 6.367,
+        "max_abs_vertical_speed_bps": 7.192,
+        "max_delta_y": 1.252,
+        "min_delta_y": -13.234,
+        "retries": 0,
+        "sample_count": 114,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=38 success_rate=0.87 avg_score=16.21 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 41.406
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:24:53.219320+00:00",
+      "reset_count": 0,
+      "score_total": 20.57,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:24:48.797587+00:00",
+        "finished_at_utc": "2026-03-26T11:24:53.219320+00:00",
+        "duration_sec": 4.422,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4883.7,
+          "y": 119.247,
+          "z": 16808.7
+        },
+        "end_pose": {
+          "x": 4895.511,
+          "y": 113.0,
+          "z": 16809.7,
+          "yaw": -85.721,
+          "pitch": 18.319,
+          "ts_utc": "2026-03-26T11:24:53.068Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16808.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 11.853,
+        "max_horizontal_speed_bps": 5.649,
+        "max_abs_vertical_speed_bps": 7.843,
+        "max_delta_y": 0.0,
+        "min_delta_y": -6.247,
+        "retries": 0,
+        "sample_count": 55,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=39 success_rate=0.87 avg_score=16.86 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 20.57
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:25:05.597656+00:00",
+      "reset_count": 0,
+      "score_total": 60.398,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:24:59.286146+00:00",
+        "finished_at_utc": "2026-03-26T11:25:05.597656+00:00",
+        "duration_sec": 6.313,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4898.7,
+          "y": 113.42,
+          "z": 16809.3
+        },
+        "end_pose": {
+          "x": 4923.7,
+          "y": 114.2,
+          "z": 16809.3,
+          "yaw": -92.762,
+          "pitch": 29.825,
+          "ts_utc": "2026-03-26T11:25:05.518Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16808.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 25.0,
+        "max_horizontal_speed_bps": 16.938,
+        "max_abs_vertical_speed_bps": 4.898,
+        "max_delta_y": 0.78,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 80,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=39 success_rate=0.87 avg_score=16.86 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 39.828
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:25:19.874652+00:00",
+      "reset_count": 0,
+      "score_total": 114.445,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:25:07.979708+00:00",
+        "finished_at_utc": "2026-03-26T11:25:19.874652+00:00",
+        "duration_sec": 11.891,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4923.222,
+          "y": 112.0,
+          "z": 16809.681
+        },
+        "end_pose": {
+          "x": 4875.784,
+          "y": 96.0,
+          "z": 16809.3,
+          "yaw": 93.958,
+          "pitch": 25.016,
+          "ts_utc": "2026-03-26T11:25:19.818Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16809.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 47.44,
+        "max_horizontal_speed_bps": 6.489,
+        "max_abs_vertical_speed_bps": 7.057,
+        "max_delta_y": 1.252,
+        "min_delta_y": -16.0,
+        "retries": 0,
+        "sample_count": 167,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=41 success_rate=0.88 avg_score=17.51 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 54.047
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:25:26.254543+00:00",
+      "reset_count": 0,
+      "score_total": 131.818,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:25:24.192372+00:00",
+        "finished_at_utc": "2026-03-26T11:25:26.254543+00:00",
+        "duration_sec": 2.062,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4875.771,
+          "y": 96.2,
+          "z": 16809.692
+        },
+        "end_pose": {
+          "x": 4883.707,
+          "y": 93.0,
+          "z": 16809.3,
+          "yaw": -94.479,
+          "pitch": 38.068,
+          "ts_utc": "2026-03-26T11:25:26.117Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16810.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 7.946,
+        "max_horizontal_speed_bps": 5.712,
+        "max_abs_vertical_speed_bps": 6.204,
+        "max_delta_y": 0.0,
+        "min_delta_y": -3.2,
+        "retries": 0,
+        "sample_count": 26,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=42 success_rate=0.88 avg_score=18.38 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 17.373
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:25:55.763201+00:00",
+      "reset_count": 0,
+      "score_total": 196.569,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:25:48.062308+00:00",
+        "finished_at_utc": "2026-03-26T11:25:55.763201+00:00",
+        "duration_sec": 7.703,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4873.967,
+          "y": 94.569,
+          "z": 16809.7
+        },
+        "end_pose": {
+          "x": 4923.7,
+          "y": 94.937,
+          "z": 16809.3,
+          "yaw": -93.119,
+          "pitch": 22.498,
+          "ts_utc": "2026-03-26T11:25:55.719Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16809.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 49.735,
+        "max_horizontal_speed_bps": 18.061,
+        "max_abs_vertical_speed_bps": 0.615,
+        "max_delta_y": 0.368,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 69,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=43 success_rate=0.88 avg_score=18.35 explore_rate=0.12",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 64.751
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:26:14.404988+00:00",
+      "reset_count": 0,
+      "score_total": 251.155,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:26:00.120809+00:00",
+        "finished_at_utc": "2026-03-26T11:26:14.404988+00:00",
+        "duration_sec": 14.281,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4923.604,
+          "y": 94.0,
+          "z": 16809.3
+        },
+        "end_pose": {
+          "x": 4874.932,
+          "y": 78.232,
+          "z": 16807.3,
+          "yaw": 94.344,
+          "pitch": 22.784,
+          "ts_utc": "2026-03-26T11:26:14.370Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16808.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 48.713,
+        "max_horizontal_speed_bps": 6.66,
+        "max_abs_vertical_speed_bps": 8.615,
+        "max_delta_y": 1.2,
+        "min_delta_y": -15.768,
+        "retries": 0,
+        "sample_count": 198,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=44 success_rate=0.89 avg_score=19.41 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 54.586
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:26:37.069249+00:00",
+      "reset_count": 0,
+      "score_total": 284.911,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:26:16.662753+00:00",
+        "finished_at_utc": "2026-03-26T11:26:37.069249+00:00",
+        "duration_sec": 20.406,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4875.642,
+          "y": 79.2,
+          "z": 16807.403
+        },
+        "end_pose": {
+          "x": 4900.189,
+          "y": 81.198,
+          "z": 16808.7,
+          "yaw": -88.826,
+          "pitch": 41.721,
+          "ts_utc": "2026-03-26T11:26:36.867Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16807.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 24.581,
+        "max_horizontal_speed_bps": 15.737,
+        "max_abs_vertical_speed_bps": 6.792,
+        "max_delta_y": 1.998,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 122,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=45 success_rate=0.89 avg_score=20.19 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 33.756
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:27:17.765941+00:00",
+      "reset_count": 0,
+      "score_total": 321.257,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:27:12.238166+00:00",
+        "finished_at_utc": "2026-03-26T11:27:17.765941+00:00",
+        "duration_sec": 5.532,
+        "reason": "mine_reset",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4876.694,
+          "y": 61.0,
+          "z": 16808.319
+        },
+        "end_pose": {
+          "x": 4904.186,
+          "y": 152.0,
+          "z": 16808.7,
+          "yaw": -85.792,
+          "pitch": 22.143,
+          "ts_utc": "2026-03-26T11:27:17.720Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16808.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 27.495,
+        "max_horizontal_speed_bps": 6.521,
+        "max_abs_vertical_speed_bps": 7.694,
+        "max_delta_y": 1.2,
+        "min_delta_y": -5.0,
+        "retries": 0,
+        "sample_count": 102,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=46 success_rate=0.89 avg_score=20.48 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 36.346
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:24:46.321315+00:00",
+      "updated_at_utc": "2026-03-26T11:27:22.928762+00:00",
+      "reset_count": 1,
+      "score_total": 321.282,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 9,
+          "flight_success": 8,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 35.698,
+          "best_score": 64.751,
+          "failed_enable_or_blocked": 1
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:27:22.096081+00:00",
+        "finished_at_utc": "2026-03-26T11:27:22.928762+00:00",
+        "duration_sec": 0.844,
+        "reason": "strict_ground_forward",
+        "outcome": "failed_enable_or_blocked",
+        "start_pose": {
+          "x": 4909.374,
+          "y": 149.0,
+          "z": 16809.39
+        },
+        "end_pose": {
+          "x": 4911.7,
+          "y": 150.743,
+          "z": 16809.664,
+          "yaw": -85.792,
+          "pitch": 31.989,
+          "ts_utc": "2026-03-26T11:27:22.718Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16808.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 2.342,
+        "max_horizontal_speed_bps": 4.471,
+        "max_abs_vertical_speed_bps": 2.824,
+        "max_delta_y": 1.743,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 7,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=47 success_rate=0.89 avg_score=20.82 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 0.025
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:32:24.239002+00:00",
+      "updated_at_utc": "2026-03-26T11:32:48.518886+00:00",
+      "reset_count": 0,
+      "score_total": 8.483,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "ceiling_constrained_ground_burst": 2,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 22.47,
+          "best_score": 60.212,
+          "flight_success": 4
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:32:47.321302+00:00",
+        "finished_at_utc": "2026-03-26T11:32:48.518886+00:00",
+        "duration_sec": 1.188,
+        "reason": "strict_ground_forward",
+        "outcome": "ceiling_constrained_ground_burst",
+        "start_pose": {
+          "x": 4920.606,
+          "y": 127.0,
+          "z": 16800.682
+        },
+        "end_pose": {
+          "x": 4917.251,
+          "y": 127.0,
+          "z": 16800.388,
+          "yaw": 94.429,
+          "pitch": 39.843,
+          "ts_utc": "2026-03-26T11:32:48.317Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16801.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 3.368,
+        "max_horizontal_speed_bps": 5.191,
+        "max_abs_vertical_speed_bps": 7.54,
+        "max_delta_y": 1.2,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 16,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=48 success_rate=0.88 avg_score=20.39 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 8.483
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:32:24.239002+00:00",
+      "updated_at_utc": "2026-03-26T11:33:38.020549+00:00",
+      "reset_count": 0,
+      "score_total": 29.46,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "ceiling_constrained_ground_burst": 2,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 22.47,
+          "best_score": 60.212,
+          "flight_success": 4
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:33:29.852525+00:00",
+        "finished_at_utc": "2026-03-26T11:33:38.020549+00:00",
+        "duration_sec": 8.157,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4921.455,
+          "y": 96.0,
+          "z": 16799.3
+        },
+        "end_pose": {
+          "x": 4914.3,
+          "y": 97.271,
+          "z": 16799.7,
+          "yaw": 86.701,
+          "pitch": 19.177,
+          "ts_utc": "2026-03-26T11:33:37.817Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16798.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 7.166,
+        "max_horizontal_speed_bps": 16.319,
+        "max_abs_vertical_speed_bps": 0.596,
+        "max_delta_y": 1.271,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 44,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=49 success_rate=0.87 avg_score=20.15 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 20.977
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:32:24.239002+00:00",
+      "updated_at_utc": "2026-03-26T11:34:30.872132+00:00",
+      "reset_count": 0,
+      "score_total": 89.672,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "ceiling_constrained_ground_burst": 2,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 22.47,
+          "best_score": 60.212,
+          "flight_success": 4
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:34:21.805288+00:00",
+        "finished_at_utc": "2026-03-26T11:34:30.872132+00:00",
+        "duration_sec": 9.062,
+        "reason": "strict_transition_boundary_marker",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4921.3,
+          "y": 62.0,
+          "z": 16799.3
+        },
+        "end_pose": {
+          "x": 4874.674,
+          "y": 63.2,
+          "z": 16799.7,
+          "yaw": 85.728,
+          "pitch": 24.501,
+          "ts_utc": "2026-03-26T11:34:30.819Z"
+        },
+        "final_look_block": "minecraft:red_wool",
+        "target_lane_z": 16799.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 46.628,
+        "max_horizontal_speed_bps": 16.468,
+        "max_abs_vertical_speed_bps": 0.0,
+        "max_delta_y": 1.2,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 108,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=50 success_rate=0.87 avg_score=20.16 explore_rate=0.12",
+          "last_look_type": "BLOCKING",
+          "last_look_block": "minecraft:red_wool"
+        },
+        "score": 60.212
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:32:24.239002+00:00",
+      "updated_at_utc": "2026-03-26T11:34:36.740572+00:00",
+      "reset_count": 0,
+      "score_total": 95.777,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "ceiling_constrained_ground_burst": 2,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 22.47,
+          "best_score": 60.212,
+          "flight_success": 4
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:34:35.239379+00:00",
+        "finished_at_utc": "2026-03-26T11:34:36.740572+00:00",
+        "duration_sec": 1.516,
+        "reason": "strict_ground_forward",
+        "outcome": "ceiling_constrained_ground_burst",
+        "start_pose": {
+          "x": 4873.419,
+          "y": 62.0,
+          "z": 16799.7
+        },
+        "end_pose": {
+          "x": 4874.7,
+          "y": 62.0,
+          "z": 16799.941,
+          "yaw": -86.751,
+          "pitch": 26.562,
+          "ts_utc": "2026-03-26T11:34:36.719Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16800.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 1.303,
+        "max_horizontal_speed_bps": 4.67,
+        "max_abs_vertical_speed_bps": 7.25,
+        "max_delta_y": 1.2,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 22,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=51 success_rate=0.87 avg_score=20.95 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 6.105
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:32:24.239002+00:00",
+      "updated_at_utc": "2026-03-26T11:35:24.122698+00:00",
+      "reset_count": 0,
+      "score_total": 123.734,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "ceiling_constrained_ground_burst": 2,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 22.47,
+          "best_score": 60.212,
+          "flight_success": 4
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:35:13.837032+00:00",
+        "finished_at_utc": "2026-03-26T11:35:24.122698+00:00",
+        "duration_sec": 10.281,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4889.955,
+          "y": 33.0,
+          "z": 16801.7
+        },
+        "end_pose": {
+          "x": 4910.979,
+          "y": 25.0,
+          "z": 16803.563,
+          "yaw": -85.721,
+          "pitch": 40.53,
+          "ts_utc": "2026-03-26T11:35:23.918Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16802.5,
+        "heading": "EAST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 21.106,
+        "max_horizontal_speed_bps": 5.957,
+        "max_abs_vertical_speed_bps": 7.25,
+        "max_delta_y": 0.0,
+        "min_delta_y": -8.0,
+        "retries": 0,
+        "sample_count": 132,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=52 success_rate=0.87 avg_score=20.66 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 27.957
+      }
+    },
+    {
+      "started_at_utc": "2026-03-26T11:32:24.239002+00:00",
+      "updated_at_utc": "2026-03-26T11:35:31.767340+00:00",
+      "reset_count": 0,
+      "score_total": 134.816,
+      "patterns": {
+        "flight_tunnel_burst": {
+          "attempts": 6,
+          "ceiling_constrained_ground_burst": 2,
+          "latest_reason": "strict_ground_forward",
+          "avg_score": 22.47,
+          "best_score": 60.212,
+          "flight_success": 4
+        }
+      },
+      "latest_pattern_result": {
+        "pattern_name": "flight_tunnel_burst",
+        "started_at_utc": "2026-03-26T11:35:31.170493+00:00",
+        "finished_at_utc": "2026-03-26T11:35:31.767340+00:00",
+        "duration_sec": 0.594,
+        "reason": "strict_ground_forward",
+        "outcome": "flight_success",
+        "start_pose": {
+          "x": 4920.3,
+          "y": 21.0,
+          "z": 16804.319
+        },
+        "end_pose": {
+          "x": 4918.68,
+          "y": 22.0,
+          "z": 16804.545,
+          "yaw": 85.728,
+          "pitch": 23.356,
+          "ts_utc": "2026-03-26T11:35:31.716Z"
+        },
+        "final_look_block": "minecraft:stone",
+        "target_lane_z": 16803.5,
+        "heading": "WEST",
+        "initial_look_block": "minecraft:stone",
+        "horizontal_distance": 1.636,
+        "max_horizontal_speed_bps": 5.744,
+        "max_abs_vertical_speed_bps": 3.122,
+        "max_delta_y": 1.252,
+        "min_delta_y": 0.0,
+        "retries": 0,
+        "sample_count": 10,
+        "metadata": {
+          "target_speed_bps": 5.232,
+          "walk_speed_bps": 5.456,
+          "expected_fly_forward_bps": 4.689,
+          "expected_fly_sprint_bps": 9.02,
+          "region_name": "prison_mine_east_lane",
+          "scout_known_non_mineable_materials": 11,
+          "initial_look_type": "ALLOWED",
+          "lane_policy_reason": "exploit_pattern:attempts=53 success_rate=0.87 avg_score=20.80 explore_rate=0.12",
+          "last_look_type": "ALLOWED",
+          "last_look_block": "minecraft:stone"
+        },
+        "score": 11.082
+      }
+    }
+  ],
+  "legacy_summary": {
+    "straight_lane_default": {
+      "runs": 29,
+      "total_duration_seconds": 3405.557999,
+      "total_blocks": 1495,
+      "total_mining_ratio": 28.8642592822569
+    },
+    "straight_sprint": {
+      "runs": 2,
+      "total_duration_seconds": 96.930149,
+      "total_blocks": 0,
+      "total_mining_ratio": 3.0
+    },
+    "strafe_slight": {
+      "runs": 3,
+      "total_duration_seconds": 94.307529,
+      "total_blocks": 0,
+      "total_mining_ratio": 3.0
+    }
+  }
+}

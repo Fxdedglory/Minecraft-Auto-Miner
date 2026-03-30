@@ -1,0 +1,1090 @@
+{
+  "version": "1.0",
+  "regions": {
+    "prison_mine_east_lane": {
+      "updated_at_utc": "2026-03-22T02:52:28.138943+00:00",
+      "successful_runs": 1,
+      "reusable": true,
+      "configured_region": {
+        "name": "prison_mine_east_lane",
+        "dimension": "minecraft:overworld",
+        "min": {
+          "x": 4873,
+          "y": 4,
+          "z": 16774
+        },
+        "max": {
+          "x": 4924,
+          "y": 152,
+          "z": 16826
+        }
+      },
+      "ground_surface_y": 152.0,
+      "look_block_intelligence": {
+        "sample_count": 173,
+        "class_counts": {
+          "mineable": 14,
+          "non_mineable": 157,
+          "air": 2,
+          "unknown": 0
+        },
+        "state_counts": {
+          "exterior_non_mineable": 154,
+          "interior_air": 2,
+          "interior_mineable": 14,
+          "interior_non_mineable": 3
+        },
+        "top_blocks": [
+          {
+            "look_block": "minecraft:dripstone_block",
+            "count": 63
+          },
+          {
+            "look_block": "minecraft:granite",
+            "count": 50
+          },
+          {
+            "look_block": "minecraft:red_wool",
+            "count": 25
+          },
+          {
+            "look_block": "minecraft:stone",
+            "count": 14
+          },
+          {
+            "look_block": "minecraft:gray_concrete_powder",
+            "count": 4
+          },
+          {
+            "look_block": "minecraft:light_gray_concrete_powder",
+            "count": 4
+          },
+          {
+            "look_block": "minecraft:chiseled_stone_bricks",
+            "count": 3
+          },
+          {
+            "look_block": "minecraft:tuff",
+            "count": 3
+          }
+        ],
+        "top_mineable_blocks": [
+          {
+            "look_block": "minecraft:stone",
+            "count": 14
+          }
+        ],
+        "top_non_mineable_blocks": [
+          {
+            "look_block": "minecraft:dripstone_block",
+            "count": 63
+          },
+          {
+            "look_block": "minecraft:granite",
+            "count": 50
+          },
+          {
+            "look_block": "minecraft:red_wool",
+            "count": 25
+          },
+          {
+            "look_block": "minecraft:gray_concrete_powder",
+            "count": 4
+          },
+          {
+            "look_block": "minecraft:light_gray_concrete_powder",
+            "count": 4
+          },
+          {
+            "look_block": "minecraft:chiseled_stone_bricks",
+            "count": 3
+          },
+          {
+            "look_block": "minecraft:tuff",
+            "count": 3
+          },
+          {
+            "look_block": "minecraft:nether_wart_block",
+            "count": 2
+          }
+        ],
+        "top_air_blocks": [
+          {
+            "look_block": "minecraft:air",
+            "count": 2
+          }
+        ],
+        "phase_summaries": {
+          "APPROACH_FACE": {
+            "sample_count": 9,
+            "class_counts": {
+              "mineable": 2,
+              "non_mineable": 5,
+              "air": 2,
+              "unknown": 0
+            },
+            "state_counts": {
+              "exterior_non_mineable": 5,
+              "interior_air": 2,
+              "interior_mineable": 2
+            },
+            "top_blocks": [
+              {
+                "look_block": "minecraft:nether_wart_block",
+                "count": 2
+              },
+              {
+                "look_block": "minecraft:air",
+                "count": 2
+              },
+              {
+                "look_block": "minecraft:stone",
+                "count": 2
+              },
+              {
+                "look_block": "minecraft:polished_deepslate_stairs",
+                "count": 1
+              },
+              {
+                "look_block": "minecraft:ancient_debris",
+                "count": 1
+              }
+            ]
+          },
+          "TRACE_SOUTH": {
+            "sample_count": 24,
+            "class_counts": {
+              "mineable": 11,
+              "non_mineable": 13,
+              "air": 0,
+              "unknown": 0
+            },
+            "state_counts": {
+              "exterior_non_mineable": 13,
+              "interior_mineable": 11
+            },
+            "top_blocks": [
+              {
+                "look_block": "minecraft:stone",
+                "count": 11
+              },
+              {
+                "look_block": "minecraft:red_wool",
+                "count": 3
+              },
+              {
+                "look_block": "minecraft:chiseled_stone_bricks",
+                "count": 3
+              },
+              {
+                "look_block": "minecraft:gray_concrete_powder",
+                "count": 3
+              },
+              {
+                "look_block": "minecraft:light_gray_concrete_powder",
+                "count": 2
+              }
+            ]
+          },
+          "TRACE_EAST": {
+            "sample_count": 44,
+            "class_counts": {
+              "mineable": 1,
+              "non_mineable": 43,
+              "air": 0,
+              "unknown": 0
+            },
+            "state_counts": {
+              "exterior_non_mineable": 42,
+              "interior_mineable": 1,
+              "interior_non_mineable": 1
+            },
+            "top_blocks": [
+              {
+                "look_block": "minecraft:dripstone_block",
+                "count": 18
+              },
+              {
+                "look_block": "minecraft:granite",
+                "count": 13
+              },
+              {
+                "look_block": "minecraft:red_wool",
+                "count": 8
+              },
+              {
+                "look_block": "minecraft:tuff",
+                "count": 2
+              },
+              {
+                "look_block": "minecraft:light_gray_concrete_powder",
+                "count": 1
+              }
+            ]
+          },
+          "TRACE_NORTH": {
+            "sample_count": 48,
+            "class_counts": {
+              "mineable": 0,
+              "non_mineable": 48,
+              "air": 0,
+              "unknown": 0
+            },
+            "state_counts": {
+              "exterior_non_mineable": 46,
+              "interior_non_mineable": 2
+            },
+            "top_blocks": [
+              {
+                "look_block": "minecraft:dripstone_block",
+                "count": 22
+              },
+              {
+                "look_block": "minecraft:granite",
+                "count": 20
+              },
+              {
+                "look_block": "minecraft:red_wool",
+                "count": 6
+              }
+            ]
+          },
+          "TRACE_WEST": {
+            "sample_count": 48,
+            "class_counts": {
+              "mineable": 0,
+              "non_mineable": 48,
+              "air": 0,
+              "unknown": 0
+            },
+            "state_counts": {
+              "exterior_non_mineable": 48
+            },
+            "top_blocks": [
+              {
+                "look_block": "minecraft:dripstone_block",
+                "count": 23
+              },
+              {
+                "look_block": "minecraft:granite",
+                "count": 17
+              },
+              {
+                "look_block": "minecraft:red_wool",
+                "count": 7
+              },
+              {
+                "look_block": "minecraft:light_gray_concrete_powder",
+                "count": 1
+              }
+            ]
+          }
+        },
+        "learned_blocking_block_ids": [
+          "minecraft:ancient_debris",
+          "minecraft:brown_terracotta",
+          "minecraft:chiseled_stone_bricks",
+          "minecraft:clay",
+          "minecraft:dark_oak_planks",
+          "minecraft:dark_oak_stairs",
+          "minecraft:dripstone_block",
+          "minecraft:granite",
+          "minecraft:gray_concrete_powder",
+          "minecraft:light_gray_concrete_powder",
+          "minecraft:nether_brick_stairs",
+          "minecraft:nether_bricks",
+          "minecraft:nether_wart_block",
+          "minecraft:polished_basalt",
+          "minecraft:polished_deepslate",
+          "minecraft:polished_deepslate_stairs",
+          "minecraft:stone_brick_stairs",
+          "minecraft:tuff"
+        ]
+      },
+      "region_verification": {
+        "sample_count": 173,
+        "observed_mineable_bounds": {
+          "x_min": 4873,
+          "x_max": 4877,
+          "y_min": 151,
+          "y_max": 151,
+          "z_min": 16800,
+          "z_max": 16825
+        },
+        "observed_non_mineable_bounds": {
+          "x_min": 4864,
+          "x_max": 4938,
+          "y_min": 151,
+          "y_max": 151,
+          "z_min": 16759,
+          "z_max": 16839
+        },
+        "mineable_bounds_delta_vs_configured": {
+          "x_min_delta": 0,
+          "x_max_delta": -47,
+          "y_min_delta": 147,
+          "y_max_delta": -1,
+          "z_min_delta": 26,
+          "z_max_delta": -1
+        },
+        "non_mineable_bounds_delta_vs_configured": {
+          "x_min_delta": -9,
+          "x_max_delta": 14,
+          "y_min_delta": 147,
+          "y_max_delta": -1,
+          "z_min_delta": -15,
+          "z_max_delta": 13
+        },
+        "mineable_count": 14,
+        "non_mineable_count": 157,
+        "air_count": 2,
+        "state_counts": {
+          "exterior_non_mineable": 154,
+          "interior_air": 2,
+          "interior_mineable": 14,
+          "interior_non_mineable": 3
+        },
+        "configured_region_match": {
+          "interior_mineable_hits": 14,
+          "exterior_mineable_hits": 0,
+          "interior_non_mineable_hits": 3,
+          "exterior_non_mineable_hits": 154,
+          "interior_air_hits": 2,
+          "matches_expectation": true
+        }
+      },
+      "recommended_region_bounds": {
+        "x_min": 4868,
+        "x_max": 4939,
+        "y_min": 152,
+        "y_max": 152,
+        "z_min": 16759,
+        "z_max": 16840
+      },
+      "observed_perimeter_bounds": {
+        "x_min": 4868.465,
+        "x_max": 4938.709,
+        "y_min": 152.0,
+        "y_max": 152.0,
+        "z_min": 16759.304,
+        "z_max": 16839.893
+      },
+      "block_catalog": {
+        "minecraft:air": {
+          "sample_count": 2,
+          "mineable_hits": 0,
+          "non_mineable_hits": 0,
+          "air_hits": 2,
+          "interior_hits": 2,
+          "exterior_hits": 0,
+          "last_classification": "air"
+        },
+        "minecraft:ancient_debris": {
+          "sample_count": 1,
+          "mineable_hits": 0,
+          "non_mineable_hits": 1,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 1,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:chiseled_stone_bricks": {
+          "sample_count": 3,
+          "mineable_hits": 0,
+          "non_mineable_hits": 3,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 3,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:dripstone_block": {
+          "sample_count": 63,
+          "mineable_hits": 0,
+          "non_mineable_hits": 63,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 63,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:granite": {
+          "sample_count": 50,
+          "mineable_hits": 0,
+          "non_mineable_hits": 50,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 50,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:gray_concrete_powder": {
+          "sample_count": 4,
+          "mineable_hits": 0,
+          "non_mineable_hits": 4,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 4,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:light_gray_concrete_powder": {
+          "sample_count": 4,
+          "mineable_hits": 0,
+          "non_mineable_hits": 4,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 4,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:nether_wart_block": {
+          "sample_count": 2,
+          "mineable_hits": 0,
+          "non_mineable_hits": 2,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 2,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:polished_deepslate_stairs": {
+          "sample_count": 1,
+          "mineable_hits": 0,
+          "non_mineable_hits": 1,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 1,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:red_wool": {
+          "sample_count": 25,
+          "mineable_hits": 0,
+          "non_mineable_hits": 25,
+          "air_hits": 0,
+          "interior_hits": 3,
+          "exterior_hits": 22,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:stone": {
+          "sample_count": 14,
+          "mineable_hits": 14,
+          "non_mineable_hits": 0,
+          "air_hits": 0,
+          "interior_hits": 14,
+          "exterior_hits": 0,
+          "last_classification": "mineable"
+        },
+        "minecraft:stone_brick_stairs": {
+          "sample_count": 1,
+          "mineable_hits": 0,
+          "non_mineable_hits": 1,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 1,
+          "last_classification": "non_mineable"
+        },
+        "minecraft:tuff": {
+          "sample_count": 3,
+          "mineable_hits": 0,
+          "non_mineable_hits": 3,
+          "air_hits": 0,
+          "interior_hits": 0,
+          "exterior_hits": 3,
+          "last_classification": "non_mineable"
+        }
+      },
+      "report_template": {
+        "version": "0.1.0",
+        "mode": "perimeter_scout",
+        "configured_region": {
+          "name": "prison_mine_east_lane",
+          "dimension": "minecraft:overworld",
+          "min": {
+            "x": 4873,
+            "y": 4,
+            "z": 16774
+          },
+          "max": {
+            "x": 4924,
+            "y": 152,
+            "z": 16826
+          }
+        },
+        "sample_count": 245,
+        "observation_sample_count": 173,
+        "observed_walkable_bounds": {
+          "x_min": 4863.5,
+          "x_max": 4938.709,
+          "y_min": 152.0,
+          "y_max": 152.063,
+          "z_min": 16759.304,
+          "z_max": 16839.893
+        },
+        "candidate_bbox_from_trace": {
+          "x_min": 4863,
+          "x_max": 4939,
+          "y_min": 152,
+          "y_max": 153,
+          "z_min": 16759,
+          "z_max": 16840
+        },
+        "observed_perimeter_bounds": {
+          "x_min": 4868.465,
+          "x_max": 4938.709,
+          "y_min": 152.0,
+          "y_max": 152.0,
+          "z_min": 16759.304,
+          "z_max": 16839.893
+        },
+        "candidate_bbox_from_perimeter": {
+          "x_min": 4868,
+          "x_max": 4939,
+          "y_min": 152,
+          "y_max": 152,
+          "z_min": 16759,
+          "z_max": 16840
+        },
+        "recommended_region_bounds": {
+          "x_min": 4868,
+          "x_max": 4939,
+          "y_min": 152,
+          "y_max": 152,
+          "z_min": 16759,
+          "z_max": 16840
+        },
+        "look_block_intelligence": {
+          "sample_count": 173,
+          "class_counts": {
+            "mineable": 14,
+            "non_mineable": 157,
+            "air": 2,
+            "unknown": 0
+          },
+          "state_counts": {
+            "exterior_non_mineable": 154,
+            "interior_air": 2,
+            "interior_mineable": 14,
+            "interior_non_mineable": 3
+          },
+          "top_blocks": [
+            {
+              "look_block": "minecraft:dripstone_block",
+              "count": 63
+            },
+            {
+              "look_block": "minecraft:granite",
+              "count": 50
+            },
+            {
+              "look_block": "minecraft:red_wool",
+              "count": 25
+            },
+            {
+              "look_block": "minecraft:stone",
+              "count": 14
+            },
+            {
+              "look_block": "minecraft:gray_concrete_powder",
+              "count": 4
+            },
+            {
+              "look_block": "minecraft:light_gray_concrete_powder",
+              "count": 4
+            },
+            {
+              "look_block": "minecraft:chiseled_stone_bricks",
+              "count": 3
+            },
+            {
+              "look_block": "minecraft:tuff",
+              "count": 3
+            }
+          ],
+          "top_mineable_blocks": [
+            {
+              "look_block": "minecraft:stone",
+              "count": 14
+            }
+          ],
+          "top_non_mineable_blocks": [
+            {
+              "look_block": "minecraft:dripstone_block",
+              "count": 63
+            },
+            {
+              "look_block": "minecraft:granite",
+              "count": 50
+            },
+            {
+              "look_block": "minecraft:red_wool",
+              "count": 25
+            },
+            {
+              "look_block": "minecraft:gray_concrete_powder",
+              "count": 4
+            },
+            {
+              "look_block": "minecraft:light_gray_concrete_powder",
+              "count": 4
+            },
+            {
+              "look_block": "minecraft:chiseled_stone_bricks",
+              "count": 3
+            },
+            {
+              "look_block": "minecraft:tuff",
+              "count": 3
+            },
+            {
+              "look_block": "minecraft:nether_wart_block",
+              "count": 2
+            }
+          ],
+          "top_air_blocks": [
+            {
+              "look_block": "minecraft:air",
+              "count": 2
+            }
+          ],
+          "phase_summaries": {
+            "APPROACH_FACE": {
+              "sample_count": 9,
+              "class_counts": {
+                "mineable": 2,
+                "non_mineable": 5,
+                "air": 2,
+                "unknown": 0
+              },
+              "state_counts": {
+                "exterior_non_mineable": 5,
+                "interior_air": 2,
+                "interior_mineable": 2
+              },
+              "top_blocks": [
+                {
+                  "look_block": "minecraft:nether_wart_block",
+                  "count": 2
+                },
+                {
+                  "look_block": "minecraft:air",
+                  "count": 2
+                },
+                {
+                  "look_block": "minecraft:stone",
+                  "count": 2
+                },
+                {
+                  "look_block": "minecraft:polished_deepslate_stairs",
+                  "count": 1
+                },
+                {
+                  "look_block": "minecraft:ancient_debris",
+                  "count": 1
+                }
+              ]
+            },
+            "TRACE_SOUTH": {
+              "sample_count": 24,
+              "class_counts": {
+                "mineable": 11,
+                "non_mineable": 13,
+                "air": 0,
+                "unknown": 0
+              },
+              "state_counts": {
+                "exterior_non_mineable": 13,
+                "interior_mineable": 11
+              },
+              "top_blocks": [
+                {
+                  "look_block": "minecraft:stone",
+                  "count": 11
+                },
+                {
+                  "look_block": "minecraft:red_wool",
+                  "count": 3
+                },
+                {
+                  "look_block": "minecraft:chiseled_stone_bricks",
+                  "count": 3
+                },
+                {
+                  "look_block": "minecraft:gray_concrete_powder",
+                  "count": 3
+                },
+                {
+                  "look_block": "minecraft:light_gray_concrete_powder",
+                  "count": 2
+                }
+              ]
+            },
+            "TRACE_EAST": {
+              "sample_count": 44,
+              "class_counts": {
+                "mineable": 1,
+                "non_mineable": 43,
+                "air": 0,
+                "unknown": 0
+              },
+              "state_counts": {
+                "exterior_non_mineable": 42,
+                "interior_mineable": 1,
+                "interior_non_mineable": 1
+              },
+              "top_blocks": [
+                {
+                  "look_block": "minecraft:dripstone_block",
+                  "count": 18
+                },
+                {
+                  "look_block": "minecraft:granite",
+                  "count": 13
+                },
+                {
+                  "look_block": "minecraft:red_wool",
+                  "count": 8
+                },
+                {
+                  "look_block": "minecraft:tuff",
+                  "count": 2
+                },
+                {
+                  "look_block": "minecraft:light_gray_concrete_powder",
+                  "count": 1
+                }
+              ]
+            },
+            "TRACE_NORTH": {
+              "sample_count": 48,
+              "class_counts": {
+                "mineable": 0,
+                "non_mineable": 48,
+                "air": 0,
+                "unknown": 0
+              },
+              "state_counts": {
+                "exterior_non_mineable": 46,
+                "interior_non_mineable": 2
+              },
+              "top_blocks": [
+                {
+                  "look_block": "minecraft:dripstone_block",
+                  "count": 22
+                },
+                {
+                  "look_block": "minecraft:granite",
+                  "count": 20
+                },
+                {
+                  "look_block": "minecraft:red_wool",
+                  "count": 6
+                }
+              ]
+            },
+            "TRACE_WEST": {
+              "sample_count": 48,
+              "class_counts": {
+                "mineable": 0,
+                "non_mineable": 48,
+                "air": 0,
+                "unknown": 0
+              },
+              "state_counts": {
+                "exterior_non_mineable": 48
+              },
+              "top_blocks": [
+                {
+                  "look_block": "minecraft:dripstone_block",
+                  "count": 23
+                },
+                {
+                  "look_block": "minecraft:granite",
+                  "count": 17
+                },
+                {
+                  "look_block": "minecraft:red_wool",
+                  "count": 7
+                },
+                {
+                  "look_block": "minecraft:light_gray_concrete_powder",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          "learned_blocking_block_ids": [
+            "minecraft:ancient_debris",
+            "minecraft:brown_terracotta",
+            "minecraft:chiseled_stone_bricks",
+            "minecraft:clay",
+            "minecraft:dark_oak_planks",
+            "minecraft:dark_oak_stairs",
+            "minecraft:dripstone_block",
+            "minecraft:granite",
+            "minecraft:gray_concrete_powder",
+            "minecraft:light_gray_concrete_powder",
+            "minecraft:nether_brick_stairs",
+            "minecraft:nether_bricks",
+            "minecraft:nether_wart_block",
+            "minecraft:polished_basalt",
+            "minecraft:polished_deepslate",
+            "minecraft:polished_deepslate_stairs",
+            "minecraft:stone_brick_stairs",
+            "minecraft:tuff"
+          ]
+        },
+        "region_verification": {
+          "sample_count": 173,
+          "observed_mineable_bounds": {
+            "x_min": 4873,
+            "x_max": 4877,
+            "y_min": 151,
+            "y_max": 151,
+            "z_min": 16800,
+            "z_max": 16825
+          },
+          "observed_non_mineable_bounds": {
+            "x_min": 4864,
+            "x_max": 4938,
+            "y_min": 151,
+            "y_max": 151,
+            "z_min": 16759,
+            "z_max": 16839
+          },
+          "mineable_bounds_delta_vs_configured": {
+            "x_min_delta": 0,
+            "x_max_delta": -47,
+            "y_min_delta": 147,
+            "y_max_delta": -1,
+            "z_min_delta": 26,
+            "z_max_delta": -1
+          },
+          "non_mineable_bounds_delta_vs_configured": {
+            "x_min_delta": -9,
+            "x_max_delta": 14,
+            "y_min_delta": 147,
+            "y_max_delta": -1,
+            "z_min_delta": -15,
+            "z_max_delta": 13
+          },
+          "mineable_count": 14,
+          "non_mineable_count": 157,
+          "air_count": 2,
+          "state_counts": {
+            "exterior_non_mineable": 154,
+            "interior_air": 2,
+            "interior_mineable": 14,
+            "interior_non_mineable": 3
+          },
+          "configured_region_match": {
+            "interior_mineable_hits": 14,
+            "exterior_mineable_hits": 0,
+            "interior_non_mineable_hits": 3,
+            "exterior_non_mineable_hits": 154,
+            "interior_air_hits": 2,
+            "matches_expectation": true
+          }
+        },
+        "block_catalog": {
+          "minecraft:nether_wart_block": {
+            "sample_count": 2,
+            "mineable_hits": 0,
+            "non_mineable_hits": 2,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 2,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:polished_deepslate_stairs": {
+            "sample_count": 1,
+            "mineable_hits": 0,
+            "non_mineable_hits": 1,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 1,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:ancient_debris": {
+            "sample_count": 1,
+            "mineable_hits": 0,
+            "non_mineable_hits": 1,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 1,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:air": {
+            "sample_count": 2,
+            "mineable_hits": 0,
+            "non_mineable_hits": 0,
+            "air_hits": 2,
+            "interior_hits": 2,
+            "exterior_hits": 0,
+            "last_classification": "air"
+          },
+          "minecraft:red_wool": {
+            "sample_count": 25,
+            "mineable_hits": 0,
+            "non_mineable_hits": 25,
+            "air_hits": 0,
+            "interior_hits": 3,
+            "exterior_hits": 22,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:stone": {
+            "sample_count": 14,
+            "mineable_hits": 14,
+            "non_mineable_hits": 0,
+            "air_hits": 0,
+            "interior_hits": 14,
+            "exterior_hits": 0,
+            "last_classification": "mineable"
+          },
+          "minecraft:chiseled_stone_bricks": {
+            "sample_count": 3,
+            "mineable_hits": 0,
+            "non_mineable_hits": 3,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 3,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:gray_concrete_powder": {
+            "sample_count": 4,
+            "mineable_hits": 0,
+            "non_mineable_hits": 4,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 4,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:light_gray_concrete_powder": {
+            "sample_count": 4,
+            "mineable_hits": 0,
+            "non_mineable_hits": 4,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 4,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:stone_brick_stairs": {
+            "sample_count": 1,
+            "mineable_hits": 0,
+            "non_mineable_hits": 1,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 1,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:tuff": {
+            "sample_count": 3,
+            "mineable_hits": 0,
+            "non_mineable_hits": 3,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 3,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:dripstone_block": {
+            "sample_count": 63,
+            "mineable_hits": 0,
+            "non_mineable_hits": 63,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 63,
+            "last_classification": "non_mineable"
+          },
+          "minecraft:granite": {
+            "sample_count": 50,
+            "mineable_hits": 0,
+            "non_mineable_hits": 50,
+            "air_hits": 0,
+            "interior_hits": 0,
+            "exterior_hits": 50,
+            "last_classification": "non_mineable"
+          }
+        },
+        "corner_points": [
+          {
+            "phase": "APPROACH_FACE",
+            "heading": "EAST",
+            "ts_utc": "2026-03-22T02:47:15.154Z",
+            "x": 4873.598,
+            "y": 152.0,
+            "z": 16800.5,
+            "yaw": -90.0,
+            "pitch": 19.463,
+            "look_block": "minecraft:air",
+            "look_block_class": "air",
+            "block_x": 0,
+            "block_y": 0,
+            "block_z": 0
+          },
+          {
+            "phase": "TRACE_SOUTH",
+            "heading": "SOUTH",
+            "ts_utc": "2026-03-22T02:47:54.505Z",
+            "x": 4868.603,
+            "y": 152.0,
+            "z": 16826.598,
+            "yaw": -79.123,
+            "pitch": 40.072,
+            "look_block": "minecraft:gray_concrete_powder",
+            "look_block_class": "non_mineable",
+            "block_x": 4870,
+            "block_y": 151,
+            "block_z": 16826
+          },
+          {
+            "phase": "TRACE_EAST",
+            "heading": "EAST",
+            "ts_utc": "2026-03-22T02:49:17.807Z",
+            "x": 4924.091,
+            "y": 152.0,
+            "z": 16839.893,
+            "yaw": -154.114,
+            "pitch": 38.354,
+            "look_block": "minecraft:granite",
+            "look_block_class": "non_mineable",
+            "block_x": 4924,
+            "block_y": 151,
+            "block_z": 16838
+          },
+          {
+            "phase": "TRACE_NORTH",
+            "heading": "NORTH",
+            "ts_utc": "2026-03-22T02:50:50.309Z",
+            "x": 4938.576,
+            "y": 152.0,
+            "z": 16774.319,
+            "yaw": 101.128,
+            "pitch": 39.213,
+            "look_block": "minecraft:dripstone_block",
+            "look_block_class": "non_mineable",
+            "block_x": 4936,
+            "block_y": 151,
+            "block_z": 16773
+          },
+          {
+            "phase": "TRACE_WEST",
+            "heading": "WEST",
+            "ts_utc": "2026-03-22T02:52:21.805Z",
+            "x": 4873.121,
+            "y": 152.0,
+            "z": 16759.304,
+            "yaw": 10.967,
+            "pitch": 39.213,
+            "look_block": "minecraft:red_wool",
+            "look_block_class": "non_mineable",
+            "block_x": 4872,
+            "block_y": 151,
+            "block_z": 16761
+          }
+        ],
+        "notes": [
+          "This report records the walkable perimeter trace, not a guaranteed mineable interior volume.",
+          "look_block_intelligence is now summarized from deliberate scout observation samples that look inward and outward from the perimeter, not only from straight-ahead walk tracing.",
+          "region_verification compares observed mineable, air, and non-mineable block coordinates against the configured mine cube so scout can verify or challenge the saved bounds.",
+          "candidate_bbox_from_trace includes the approach path and can be wider than the real perimeter.",
+          "candidate_bbox_from_perimeter removes the pre-perimeter approach path.",
+          "recommended_region_bounds is fitted from the saved scout corner points and is the best default update target."
+        ]
+      }
+    }
+  }
+}

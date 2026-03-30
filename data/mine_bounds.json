@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "description": "Logical mining/boundary regions for Minecraft Auto Miner using Forge F3 pose.",
+  "_notes": [
+    "You can define multiple named regions where the miner is allowed to operate.",
+    "Coordinates are in absolute Minecraft world coordinates (same as F3).",
+    "This is intentionally minimal; tweak or add regions as needed."
+  ],
+  "regions": [
+    {
+      "name": "prison_mine_east_lane",
+      "dimension": "minecraft:overworld",
+      "entry_pose": {
+        "x": 4863.5,
+        "y": 152.0,
+        "z": 16800.5,
+        "yaw": -90.0,
+        "pitch": 0.0,
+        "facing": "east"
+      },
+
+      "min": { "x": 4873, "y": 4, "z": 16774 },
+      "max": { "x": 4924, "y": 152, "z": 16826 },
+
+      "allowed_block_ids": [
+        "minecraft:stone"
+      ],
+      "blocking_block_ids": [
+        "minecraft:red_wool"
+      ]
+    }
+  ]
+}

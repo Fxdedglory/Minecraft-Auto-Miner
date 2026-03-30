@@ -1,0 +1,184 @@
+{
+  "profiles": {
+    "strafe_slight": {
+      "candidates": [
+        {
+          "pitch_pixels": 140,
+          "sprint_seconds": 0.4,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 180,
+          "sprint_seconds": 0.6,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 200,
+          "sprint_seconds": 0.8,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 180,
+          "sprint_seconds": 0.6,
+          "strafe_pattern": "zigzag_small"
+        },
+        {
+          "pitch_pixels": 200,
+          "sprint_seconds": 0.8,
+          "strafe_pattern": "zigzag_small"
+        },
+        {
+          "pitch_pixels": 220,
+          "sprint_seconds": 0.9,
+          "strafe_pattern": "zigzag_small"
+        }
+      ],
+      "stats": {
+        "pitch=140_sprint=0.40_strafe=none": {
+          "runs": 5,
+          "total_reward": 68.44332247157476
+        },
+        "pitch=180_sprint=0.60_strafe=none": {
+          "runs": 1,
+          "total_reward": 0.0
+        },
+        "pitch=180_sprint=0.60_strafe=zigzag_small": {
+          "runs": 0,
+          "total_reward": 0.0
+        },
+        "pitch=200_sprint=0.80_strafe=none": {
+          "runs": 0,
+          "total_reward": 0.0
+        },
+        "pitch=200_sprint=0.80_strafe=zigzag_small": {
+          "runs": 0,
+          "total_reward": 0.0
+        },
+        "pitch=220_sprint=0.90_strafe=zigzag_small": {
+          "runs": 0,
+          "total_reward": 0.0
+        }
+      }
+    },
+    "straight_lane_default": {
+      "candidates": [
+        {
+          "pitch_pixels": 140,
+          "sprint_seconds": 0.4,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 180,
+          "sprint_seconds": 0.6,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 200,
+          "sprint_seconds": 0.8,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 180,
+          "sprint_seconds": 0.6,
+          "strafe_pattern": "zigzag_small"
+        },
+        {
+          "pitch_pixels": 200,
+          "sprint_seconds": 0.8,
+          "strafe_pattern": "zigzag_small"
+        },
+        {
+          "pitch_pixels": 220,
+          "sprint_seconds": 0.9,
+          "strafe_pattern": "zigzag_small"
+        }
+      ],
+      "stats": {
+        "pitch=140_sprint=0.40_strafe=none": {
+          "runs": 11,
+          "total_reward": 0.0
+        },
+        "pitch=180_sprint=0.60_strafe=none": {
+          "runs": 1,
+          "total_reward": 0.0
+        },
+        "pitch=180_sprint=0.60_strafe=zigzag_small": {
+          "runs": 1,
+          "total_reward": 0.0
+        },
+        "pitch=200_sprint=0.80_strafe=none": {
+          "runs": 2,
+          "total_reward": 0.0
+        },
+        "pitch=200_sprint=0.80_strafe=zigzag_small": {
+          "runs": 1,
+          "total_reward": 0.0
+        },
+        "pitch=220_sprint=0.90_strafe=zigzag_small": {
+          "runs": 1,
+          "total_reward": 0.0
+        }
+      }
+    },
+    "straight_sprint": {
+      "candidates": [
+        {
+          "pitch_pixels": 140,
+          "sprint_seconds": 0.4,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 180,
+          "sprint_seconds": 0.6,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 200,
+          "sprint_seconds": 0.8,
+          "strafe_pattern": "none"
+        },
+        {
+          "pitch_pixels": 180,
+          "sprint_seconds": 0.6,
+          "strafe_pattern": "zigzag_small"
+        },
+        {
+          "pitch_pixels": 200,
+          "sprint_seconds": 0.8,
+          "strafe_pattern": "zigzag_small"
+        },
+        {
+          "pitch_pixels": 220,
+          "sprint_seconds": 0.9,
+          "strafe_pattern": "zigzag_small"
+        }
+      ],
+      "stats": {
+        "pitch=140_sprint=0.40_strafe=none": {
+          "runs": 6,
+          "total_reward": 229.61521383445327
+        },
+        "pitch=180_sprint=0.60_strafe=none": {
+          "runs": 0,
+          "total_reward": 0.0
+        },
+        "pitch=180_sprint=0.60_strafe=zigzag_small": {
+          "runs": 0,
+          "total_reward": 0.0
+        },
+        "pitch=200_sprint=0.80_strafe=none": {
+          "runs": 1,
+          "total_reward": 0.0
+        },
+        "pitch=200_sprint=0.80_strafe=zigzag_small": {
+          "runs": 0,
+          "total_reward": 0.0
+        },
+        "pitch=220_sprint=0.90_strafe=zigzag_small": {
+          "runs": 1,
+          "total_reward": 62.950118418738704
+        }
+      }
+    }
+  }
+}
